@@ -67,7 +67,6 @@ function to_abs($base, $rel) {
 
 function curl_fetch($url) {
     $ua = "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36";
-    // This is the crucial missing piece that we are adding now.
     $referer = "https://www.ksohls.ru/premiumtv/daddyhd.php?id=370";
 
     $ch = curl_init();
@@ -85,7 +84,7 @@ function curl_fetch($url) {
             "User-Agent: $ua",
             "Accept: */*",
             "Connection: keep-alive",
-            "Referer: $referer" // Added the required Referer header
+            "Referer: $referer"
         ],
     ]);
 
@@ -144,21 +143,18 @@ if ($is_m3u8) {
         }
 
         if (strpos($t, "#") === 0) {
-
             if (stripos($t, "#EXT-X-KEY") === 0 && preg_match('/URI="([^"]+)"/', $t, $m)) {
                 $key = $m[1];
                 $absKey = to_abs($base, $key);
-                // We need to pass the referer to the key request as well
-                $proxyKey = "?url=" . urlencode($absKey);
+                $proxyKey = "?url=" . b64_to_hex(base64_encode($absKey));
                 $t = preg_replace('/URI="([^"]+)"/', 'URI="' . $proxyKey . '"', $t);
             }
-
             $out[] = $t;
             continue;
         }
 
         $abs = to_abs($base, $t);
-        $out[] = "?url=" . urlencode($abs);
+        $out[] = "?url=" . b64_to_hex(base64_encode($abs));
     }
 
     header("Content-Type: application/vnd.apple.mpegurl");
