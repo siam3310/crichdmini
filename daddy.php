@@ -1,156 +1,103 @@
 <?php
 
+// This script acts as a proxy to fetch and decrypt a protected HLS stream.
+// It handles adding necessary headers and decrypting AES-128 encrypted segments on the fly.
+
 // --- Configuration ---
-// *** FIX: Use the correct channel key and salt from the new URL ***
-define('CHANNEL_KEY', 'stream370');
-define('CHANNEL_SALT', '19a32c25637651a2');
-define('FINGERPRINT', '1920x1080en-US');
+$m3u8_url = "https://chevy.adsfadfds.cfd/proxy/zeko/premium308/mono.m3u8";
+$referer = "https://www.ksohls.ru/premiumtv/daddyhd.php?id=370";
+$user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36";
 
-// --- Proxy Logic ---
-if (isset($_GET['resource'])) {
-
-    // --- Authentication Functions ---
-    function compute_pow_nonce($path, $timestamp) {
-        $hmac_hash = hash_hmac('sha256', CHANNEL_KEY, CHANNEL_SALT);
-        for ($nonce = 0; $nonce < 100000; $nonce++) {
-            $message = $hmac_hash . CHANNEL_KEY . $path . $timestamp . $nonce;
-            if (hexdec(substr(md5($message), 0, 4)) < 4096) return $nonce;
-        }
-        return 99999;
+// --- Helper function to fetch a URL with custom headers ---
+function fetch_url($url, $referer, $user_agent) {
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'Referer: ' . $referer,
+        'User-Agent: ' . $user_agent
+    ]);
+    // Follow redirects, if any
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+    $output = curl_exec($ch);
+    if (curl_errno($ch)) {
+        // If there's a cURL error, return an empty string or handle it
+        error_log("cURL Error: " . curl_error($ch));
+        return '';
     }
-
-    function generate_auth_token($path, $timestamp) {
-        $message = CHANNEL_KEY . '|' . $path . '|' . $timestamp . '|' . FINGERPRINT;
-        return substr(hash_hmac('sha256', $message, CHANNEL_SALT), 0, 16);
-    }
-
-    $resource_path = $_GET['resource'];
-    $is_key_request = strpos($resource_path, 'key/') === 0;
-
-    if ($is_key_request) {
-        $full_url = 'https://chevy.soyspace.cyou/' . $resource_path;
-        $auth_path = '/' . $resource_path;
-    } else {
-        $lookup_url = 'https://chevy.vovlacosa.sbs/server_lookup?channel_id=' . CHANNEL_KEY;
-        $server_details_json = @file_get_contents($lookup_url, false, stream_context_create(["ssl"=>["verify_peer"=>false, "verify_peer_name"=>false]]));
-        if ($server_details_json === FALSE) { http_response_code(503); exit("Error: Could not contact server lookup."); }
-        $server_details = json_decode($server_details_json, true);
-        $server_key = $server_details['server_key'];
-        $full_url = "https://chevy.adsfadfds.cfd/proxy/{$server_key}/" . CHANNEL_KEY . "/{$resource_path}";
-        $auth_path = $resource_path;
-    }
-
-    $timestamp = time();
-    $nonce = compute_pow_nonce($auth_path, $timestamp);
-    $auth_token = generate_auth_token($auth_path, $timestamp);
-
-    if ($is_key_request) {
-        $headers = ['X-Key-Timestamp: '.$timestamp, 'X-Key-Nonce: '.$nonce, 'X-Key-Token: '.$auth_token, 'X-Fingerprint: '.FINGERPRINT, 'X-Country-Code: US'];
-    } else {
-        $headers = ['X-Timestamp: '.$timestamp, 'X-Nonce: '.$nonce, 'X-Auth-Token: '.$auth_token, 'X-Fingerprint: '.FINGERPRINT, 'X-Country-Code: US'];
-    }
-
-    $ch = curl_init($full_url);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-    curl_setopt($ch, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT'] ?? 'Mozilla/5.0');
-    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
-
-    $content = curl_exec($ch);
-    if ($content === false) { http_response_code(502); exit("cURL Error: " . curl_error($ch)); }
-    $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    $content_type = curl_getinfo($ch, CURLINFO_CONTENT_TYPE);
     curl_close($ch);
-
-    if ($http_code != 200) { http_response_code($http_code); exit("Upstream error: {$http_code}"); }
-
-    // *** FIX: Revert to .css and handle the correct content type ***
-    if (pathinfo($resource_path, PATHINFO_EXTENSION) === 'css') {
-        $content = preg_replace_callback(
-            '/(#EXT-X-KEY:.*?URI=")([^"]+)(")/m',
-            fn($m) => $m[1] . 'daddy.php?resource=' . ltrim(parse_url($m[2], PHP_URL_PATH), '/') . $m[3],
-            $content
-        );
-        $content_type = 'application/vnd.apple.mpegurl';
-    }
-
-    header('Content-Type: ' . $content_type);
-    echo $content;
-    exit;
+    return $output;
 }
 
-// --- HTML Player Page ---
-?>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Daddy Player</title>
-    <meta charset="utf-8">
-    <style>
-        body, html { margin: 0; padding: 0; height: 100%; font-family: monospace; background-color: #181818; color: #eee; }
-        #player-container { width: 70%; height: 100%; float: left; }
-        #info-container { width: 30%; height: 100%; float: right; background-color: #222; overflow-y: auto; }
-        #player { width: 100%; height: 100%; }
-        .info-box { padding: 15px; border-bottom: 1px solid #444; }
-        h3 { margin: 0 0 10px 0; color: #0f0; }
-        #stream-url { word-wrap: break-word; font-size: 12px; }
-        #logs { font-size: 11px; white-space: pre-wrap; word-wrap: break-word; }
-    </style>
-    <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.8/dist/hls.min.js"></script>
-</head>
-<body>
-    <div id="player-container">
-        <video id="player" controls></video>
-    </div>
-    <div id="info-container">
-        <div class="info-box">
-            <h3>Stream URL</h3>
-            <div id="stream-url"></div>
-        </div>
-        <div class="info-box">
-            <h3>Live Logs</h3>
-            <div id="logs"></div>
-        </div>
-    </div>
+// --- Main Logic ---
+$type = isset($_GET['type']) ? $_GET['type'] : 'playlist';
 
-    <script>
-        const video = document.getElementById('player');
-        const logsContainer = document.getElementById('logs');
-        const urlContainer = document.getElementById('stream-url');
-        
-        // *** FIX: Revert to mono.css ***
-        const streamUrl = 'daddy.php?resource=mono.css';
+if ($type == 'playlist') {
+    // The player is requesting the main playlist.
+    $playlist_content = fetch_url($m3u8_url, $referer, $user_agent);
 
-        urlContainer.textContent = streamUrl;
+    // Regex to find the KEY URI
+    preg_match('/URI="([^"]+)"/', $playlist_content, $key_matches);
+    if (isset($key_matches[1])) {
+        $original_key_uri = $key_matches[1];
+        // Replace the key URI to point back to this script
+        $new_key_uri = 'daddy.php?type=key&uri=' . urlencode($original_key_uri);
+        $playlist_content = str_replace($original_key_uri, $new_key_uri, $playlist_content);
+    }
 
-        function log(type, data) {
-            const time = new Date().toLocaleTimeString();
-            logsContainer.innerHTML = `[${time}] [${type}] ${JSON.stringify(data)}\n` + logsContainer.innerHTML;
-        }
-
-        if (Hls.isSupported()) {
-            const hls = new Hls({ debug: true });
-            hls.loadSource(streamUrl);
-            hls.attachMedia(video);
-            
-            hls.on(Hls.Events.MANIFEST_PARSED, (e,d) => {
-                log('Manifest Parsed', `Qualities: ${d.levels.map(l => l.height+'p').join(', ')}`)
-                video.play();
-            });
-            hls.on(Hls.Events.FRAG_LOADING, (e,d) => log('Fragment Loading', d.frag.url));
-            hls.on(Hls.Events.ERROR, (e,d) => {
-                if (d.fatal) {
-                    log('FATAL ERROR', d.details);
-                    console.error('Fatal HLS Error:', d);
-                }
-            });
-
-        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-            video.src = streamUrl;
+    // Rewrite segment URLs to point back to this script
+    $lines = explode("\n", $playlist_content);
+    $new_lines = [];
+    foreach ($lines as $line) {
+        if (substr(trim($line), 0, 1) != '#' && trim($line) != '') {
+            // This is a segment URL
+            $new_lines[] = 'daddy.php?type=segment&uri=' . urlencode(trim($line));
         } else {
-            log('Fatal Error', 'HLS not supported');
+            $new_lines[] = $line;
         }
-    </script>
-</body>
-</html>
+    }
+    $modified_playlist = implode("\n", $new_lines);
+
+    // Serve the modified playlist to the player
+    header('Content-Type: application/vnd.apple.mpegurl');
+    echo $modified_playlist;
+
+} elseif ($type == 'key') {
+    // The player is requesting the decryption key.
+    $key_uri = $_GET['uri'];
+    $key_content = fetch_url($key_uri, $referer, $user_agent);
+    header('Content-Type: application/octet-stream');
+    echo $key_content;
+
+} elseif ($type == 'segment') {
+    // The player is requesting a video segment. We need to fetch it and decrypt it.
+
+    // 1. First, we need the key and IV. Fetch the main playlist again to ensure they are current.
+    $playlist_content = fetch_url($m3u8_url, $referer, $user_agent);
+    preg_match('/URI="([^"]+)"/', $playlist_content, $key_matches);
+    preg_match('/IV=0x([0-9a-fA-F]+)/', $playlist_content, $iv_matches);
+
+    if (isset($key_matches[1]) && isset($iv_matches[1])) {
+        $key_uri = $key_matches[1];
+        $iv_hex = $iv_matches[1];
+        $iv = hex2bin($iv_hex);
+
+        // 2. Fetch the decryption key
+        $key = fetch_url($key_uri, $referer, $user_agent);
+
+        // 3. Fetch the encrypted segment data
+        $segment_uri = $_GET['uri'];
+        $encrypted_segment = fetch_url($segment_uri, $referer, $user_agent);
+
+        // 4. Decrypt the segment using OpenSSL
+        $decrypted_segment = openssl_decrypt($encrypted_segment, 'aes-128-cbc', $key, OPENSSL_RAW_DATA, $iv);
+
+        // 5. Serve the decrypted segment to the player
+        header('Content-Type: video/mp2t');
+        echo $decrypted_segment;
+    } else {
+        http_response_code(500);
+        echo "Could not find key or IV in the main playlist.";
+    }
+}
+?>
