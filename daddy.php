@@ -81,8 +81,8 @@ if (isset($_GET['resource'])) {
     // For HLS playlists, all segment/sub-playlist URLs must be rewritten 
     // to point back to this proxy script.
     if (pathinfo($resource, PATHINFO_EXTENSION) === 'm3u8') {
-        $content = preg_replace('/^(.*\.ts)$/m', 'index.php?resource=$1', $content);
-        $content = preg_replace('/^(.*\.m3u8)$/m', 'index.php?resource=$1', $content);
+        $content = preg_replace('/^(.*\\.ts)$/m', 'index.php?resource=$1', $content);
+        $content = preg_replace('/^(.*\\.m3u8)$/m', 'index.php?resource=$1', $content);
     }
 
     // Pass back the correct Content-Type and the actual content
@@ -98,6 +98,16 @@ if (isset($_GET['resource'])) {
 <head>
     <title>PHP Video Stream Proxy</title>
     <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet" />
+    <style>
+        body { font-family: sans-serif; }
+        #stream-info {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            background-color: #f5f5f5;
+            word-wrap: break-word;
+        }
+    </style>
 </head>
 <body>
 
@@ -107,7 +117,43 @@ if (isset($_GET['resource'])) {
     <source src="index.php?resource=mono.m3u8" type="application/x-mpegURL">
 </video-js>
 
+<div id="stream-info">
+    <strong>Live Fetched URL:</strong>
+    <span id="live-url">Waiting for stream to start...</span>
+</div>
+
 <script src="https://vjs.zencdn.net/7.15.4/video.js"></script>
+
+<script>
+    // Expose the PHP base URL to JavaScript
+    const BASE_URL = '<?php echo BASE_URL; ?>';
+
+    (function() {
+        // Get the video.js player instance
+        const player = videojs('my-video');
+        const liveUrlElement = document.getElementById('live-url');
+
+        // This function runs just before any segment is requested
+        player.vhs.xhr.beforeRequest = function(options) {
+            
+            // The URI will be like "index.php?resource=..."
+            const requestUri = options.uri;
+            
+            // Extract the resource name from the URI
+            const urlParams = new URLSearchParams(requestUri.split('?')[1]);
+            const resource = urlParams.get('resource');
+
+            if (resource) {
+                // Construct the full upstream URL and display it
+                const fullUrl = BASE_URL + resource;
+                liveUrlElement.textContent = fullUrl;
+            }
+
+            // Return the original options to allow the request to proceed
+            return options;
+        };
+    })();
+</script>
 
 </body>
 </html>
