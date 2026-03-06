@@ -23,7 +23,7 @@ $channels = [
     'bbtsp3' => ['name' => 'BT Sports 3', 'logo' => 'https://i.ibb.co/HfMSjPdF/siam.png', 'referer' => 'https://streamcrichd.com/update/skys1.php'],
     'bbtespn' => ['name' => 'BT Sports 4', 'logo' => 'https://i.ibb.co/HfMSjPdF/siam.png', 'referer' => 'https://streamcrichd.com/update/skys1.php'],
     'premieruk' => ['name' => 'Viaplay Sports 1', 'logo' => 'https://i.ibb.co/HfMSjPdF/siam.png', 'referer' => 'https://streamcrichd.com/update/skys1.php'],
-    'hdchnl2' => ['name' => 'Premier Sports 2', 'logo' => 'https://i.ibb.co/HfMSjPdF/siam.png', 'referer' => 'https://streamcrichd.com/update/skys1.php'],
+    'laligauk' => ['name' => 'Laliga Sports', 'logo' => 'https://i.ibb.co/HfMSjPdF/siam.png', 'referer' => 'https://streamcrichd.com/update/skys1.php'],
     'supercricket' => ['name' => 'Fox Cricket', 'logo' => 'https://i.ibb.co/HfMSjPdF/siam.png', 'referer' => 'https://streamcrichd.com/update/skys1.php'],
 ];
 ?>
