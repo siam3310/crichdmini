@@ -1,44 +1,44 @@
 #EXTM3U x-tvg-url="https://github.com/epgshare01/share/raw/master/epg_ripper_ALL_SOURCES1.xml.gz"
 # Made by Siam3310
-# Last updated: 2026-03-24 05:21:28 PM (Bangladesh/Dhaka)
+# Last updated: 2026-03-24 05:33:02 PM (Bangladesh/Dhaka)
 # Total channels: 13
 
 #EXTINF:-1 tvg-name="Willow Cricket",Willow Cricket
 #EXTVLCOPT:http-referrer=https://player0003.com/
-https://kick2.bhalocast.com:7059/hls/dxdwillohd.m3u8?md5=HsM3EW7aqrseB5pV9ADz6g&expires=1774356056&ch=dxdwillohd&s=ba7d79b05bfe3d23a27aad9b2e10d4b5
+https://kick2.bhalocast.com:7059/hls/dxdwillohd.m3u8?md5=Nsesba8wShY9e4XhpuTNRg&expires=1774356747&ch=dxdwillohd&s=3d0f8ef89d8131ca70ac0f646102a07d
 #EXTINF:-1 tvg-name="Willow 2",Willow 2
 #EXTVLCOPT:http-referrer=https://player0003.com/
-https://kick2.bhalocast.com:7059/hls/dxwillo2.m3u8?md5=OEgQGpkvFzPG2CGaO4NLrg&expires=1774356058&ch=dxwillo2&s=1b1217e17a5538e4854ec789c46122e3
+https://kick2.bhalocast.com:7059/hls/dxwillo2.m3u8?md5=suIZ69VvKygX7tebrz7ILw&expires=1774356749&ch=dxwillo2&s=9936925e917a09bb4c741d333f42e002
 #EXTINF:-1 tvg-name="Star Sports 1",Star Sports 1
 #EXTVLCOPT:http-referrer=https://player0003.com/
-https://kick2.bhalocast.com:7059/hls/str1crows.m3u8?md5=3G02IyzX_prbDWHl4n08vA&expires=1774356059&ch=str1crows&s=ed28fb88eb71106e3b07ab6864aab49a
+https://kick2.bhalocast.com:7059/hls/str1crows.m3u8?md5=NnqfH9u-62-GvX_fa9KRxw&expires=1774356751&ch=str1crows&s=8b6cd52ddf29ed4a935e2d3d40a6b119
 #EXTINF:-1 tvg-name="Star Sports Hindi",Star Sports Hindi
 #EXTVLCOPT:http-referrer=https://player0003.com/
-https://kick2.bhalocast.com:7059/hls/str1crowshi.m3u8?md5=SW7bxiFy6ZnjufGFm57_7Q&expires=1774356061&ch=str1crowshi&s=d01d1c107cf811e991e3ba569b6e4ce3
+https://kick2.bhalocast.com:7059/hls/str1crowshi.m3u8?md5=-ymhJPMVztamR_P8QAs4Jw&expires=1774356753&ch=str1crowshi&s=04b6fe45939e8ee3582ad0df46750fc4
 #EXTINF:-1 tvg-name="Star Sports 2",Star Sports 2
 #EXTVLCOPT:http-referrer=https://player0003.com/
-https://kick2.bhalocast.com:7059/hls/str2cows.m3u8?md5=toSPhZn_i2s-xGpOC6Yx6Q&expires=1774356063&ch=str2cows&s=afe529bd3e83f06eeac5e117c3b9d403
+https://kick2.bhalocast.com:7059/hls/str2cows.m3u8?md5=cvSVQFYyliwSm0xMsmUviw&expires=1774356754&ch=str2cows&s=e7b921de7930de93100a3800b2052db1
 #EXTINF:-1 tvg-name="PTV Sports",PTV Sports
 #EXTVLCOPT:http-referrer=https://player0003.com/
-https://kick2.bhalocast.com:7059/hls/ptvscpr.m3u8?md5=etNLbaKnmyEzXw-ftQRo9A&expires=1774356064&ch=ptvscpr&s=55206a26efbec91f7c276ca9a0552f98
+https://kick2.bhalocast.com:7059/hls/ptvscpr.m3u8?md5=FpWxamMC-ibBQpRhzOBUrg&expires=1774356756&ch=ptvscpr&s=f4e384783351167ac2f40e293a6f9ae5
 #EXTINF:-1 tvg-name="A Sports",A Sports
 #EXTVLCOPT:http-referrer=https://player0003.com/
-https://kick2.bhalocast.com:7059/hls/asportsd.m3u8?md5=SvIXfluBf9iGuJsfcCdH5Q&expires=1774356066&ch=asportsd&s=788705a76463ffe0325376ee32339a94
+https://kick2.bhalocast.com:7059/hls/asportsd.m3u8?md5=kCEAn33ybjoZQyxSB3alDw&expires=1774356758&ch=asportsd&s=22f40ccfcb1e5447775235103cbef96c
 #EXTINF:-1 tvg-name="Fox Sports Cricket",Fox Sports Cricket
 #EXTVLCOPT:http-referrer=https://player0003.com/
-https://kick2.bhalocast.com:7059/hls/cf0sp1.m3u8?md5=XPNTD0YzMBgmH9_IMT1zUg&expires=1774356072&ch=cf0sp1&s=f4d634538235b322eb91bad5d04f64b5
+https://kick2.bhalocast.com:7059/hls/cf0sp1.m3u8?md5=Oilzr2Y2K9LKiZA0xH0DjQ&expires=1774356765&ch=cf0sp1&s=fc7dad501629bad7fa71cbba70530ec1
 #EXTINF:-1 tvg-name="Astro Cricket",Astro Cricket
 #EXTVLCOPT:http-referrer=https://player0003.com/
-https://kick2.bhalocast.com:7059/hls/astrocric.m3u8?md5=vVNnIq6DXnpwfnJecqCz9g&expires=1774356073&ch=astrocric&s=be98f3b079205e0e7b15e4bdc2c13e4e
+https://kick2.bhalocast.com:7059/hls/astrocric.m3u8?md5=aU6KLkQngVRkGGcWdstlAQ&expires=1774356766&ch=astrocric&s=d2af3ef10dc53946c8166641eb2f3ec2
 #EXTINF:-1 tvg-name="Sony Sports Ten 5",Sony Sports Ten 5
 #EXTVLCOPT:http-referrer=https://player0003.com/
-https://kick2.bhalocast.com:7059/hls/sonyssix.m3u8?md5=I9Ol726sXpK9mCwixFgBLg&expires=1774356075&ch=sonyssix&s=596e63f482e086b076d735571277a478
+https://kick2.bhalocast.com:7059/hls/sonyssix.m3u8?md5=rgB2J2r_hf8YG602EGn6-w&expires=1774356768&ch=sonyssix&s=41da33c27a786b25f845711fa06dbece
 #EXTINF:-1 tvg-name="Sony Sports Ten 1",Sony Sports Ten 1
 #EXTVLCOPT:http-referrer=https://player0003.com/
-https://kick2.bhalocast.com:7059/hls/ten1co.m3u8?md5=XiEWxu5X6_C3asTC8ys_xw&expires=1774356076&ch=ten1co&s=1983bd32310459aee38c40f04d15832f
+https://kick2.bhalocast.com:7059/hls/ten1co.m3u8?md5=fywvqv71J0rAMRM-f8_fbQ&expires=1774356770&ch=ten1co&s=2ae1ffc9180f6c942a925ada412fb09f
 #EXTINF:-1 tvg-name="Sony Sports Ten 2",Sony Sports Ten 2
 #EXTVLCOPT:http-referrer=https://player0003.com/
-https://kick2.bhalocast.com:7059/hls/ten2endia.m3u8?md5=Y1Gak49ib0Txsxn5gPbMrw&expires=1774356078&ch=ten2endia&s=4326cdeaebed41286f91eeb9a832a099
+https://kick2.bhalocast.com:7059/hls/ten2endia.m3u8?md5=hqFMde_vljer7cTX6Srbzw&expires=1774356772&ch=ten2endia&s=6108ac3cf0c628845ba2911472c55370
 #EXTINF:-1 tvg-name="Sony Sports Ten 3",Sony Sports Ten 3
 #EXTVLCOPT:http-referrer=https://player0003.com/
-https://kick2.bhalocast.com:7059/hls/ten3sd.m3u8?md5=FcqiVSWdjvGQO9yn9txMng&expires=1774356079&ch=ten3sd&s=2fdccf7b65896da787804a3f3e1c05aa
+https://kick2.bhalocast.com:7059/hls/ten3sd.m3u8?md5=Zo9glB4WFj41bfPB6OFS-w&expires=1774356773&ch=ten3sd&s=af0f2bbe250e4543b38f634f9bcbef0a
