@@ -34,7 +34,6 @@ def clean_channel_name(name):
     return " ".join(name.split())
 
 def is_stream_working(stream_url, referrer):
-    """Checks if a stream URL returns a valid M3U8 playlist."""
     if not stream_url:
         return False
     logging.info(f"Checking stream: {stream_url}")
@@ -67,14 +66,14 @@ def get_stream_link_go(channel_url):
     if not embeds_match:
         logging.warning(f"Could not find embeds[0] content for {channel_url}")
         return None, None, None, None
-    iframe_html = embeds_match.group(1)
+    
+    iframe_html_with_escapes = embeds_match.group(1)
+    iframe_html = iframe_html_with_escapes.replace('\\"', '"')
 
     src_match = re.search(r'src="(.*?)"', iframe_html)
     if not src_match:
-        src_match = re.search(r'src=\\"(.*?)\\"' , iframe_html) # Fallback
-        if not src_match:
-            logging.warning(f"Could not find src in iframe html for {channel_url}")
-            return None, None, None, None
+        logging.warning(f"Could not find src in iframe html for {channel_url}")
+        return None, None, None, None
     
     iframe_src_1 = src_match.group(1)
 
@@ -92,7 +91,7 @@ def get_stream_link_go(channel_url):
     fid = fid_match.group(1)
     logging.info(f"Found fid: {fid}")
 
-    iframe_src_2 = f"https://profamouslife.com/premium.php?player=desktop&live={fid}"
+    iframe_src_2 = f"https://executeandship.com/premium.php?player=desktop&live={fid}"
 
     logging.info(f"Fetching second iframe: {iframe_src_2}")
     iframe_content_2 = run_command(f"curl -L -H 'Referer: {iframe_src_1}' '{iframe_src_2}'")
@@ -111,7 +110,7 @@ def get_stream_link_go(channel_url):
     raw_name = channel_name_match.group(1).split("|")[0].strip() if channel_name_match else "Unknown Channel"
     channel_name = clean_channel_name(raw_name)
 
-    return channel_name, stream_url, "https://profamouslife.com/", "crichd2"
+    return channel_name, stream_url, "https://executeandship.com/", "crichd2"
 
 # --- crichd.com.co scraper functions ---
 
@@ -119,7 +118,7 @@ def get_channel_links_crichd():
     logging.info(f"Fetching channel links from {CRICHD_BASE_URL}")
     main_page_content = run_command(f"curl -L {CRICHD_BASE_URL}")
     if not main_page_content: return []
-    pattern = r'<li class="has-sub"><a href="(' + re.escape(CRICHD_BASE_URL) + r'/channels/[^\"]+)"'
+    pattern = r'<li class="has-sub"><a href="(https://crichd.com.co/channels/[^\"]+)"'
     channel_links = re.findall(pattern, main_page_content)
     logging.info(f"Found {len(channel_links)} channel links from {CRICHD_BASE_URL}")
     return channel_links
@@ -129,65 +128,63 @@ def get_stream_link_crichd(channel_url):
     channel_page_content = run_command(f"curl -L '{channel_url}'")
     if not channel_page_content: return None, None, None, None
 
-    player_link_match = re.search(r"<a[^>]+href=['\"](https://(?:player\.)?dadocric\.st/player\.php\?id=[^\'\"]+)['\"]", channel_page_content)
-    if not player_link_match: return None, None, None, None
-    player_id = player_link_match.group(1).split("id=")[1]
-    playerado_url = f"https://playerado.top/embed2.php?id={player_id}"
+    player_link_match = re.search(r'<a href=\"(https://dadocric.st/player(?:2)?\.php\?id=[^\"]+)\"', channel_page_content)
+    if not player_link_match:
+        player_link_match = re.search(r'<a href="(https://dadocric.st/player(?:2)?\.php\?id=[^\"]+)"', channel_page_content)
+        if not player_link_match:
+            logging.warning(f"Could not find dadocric player link in {channel_url}")
+            return None, None, None, None
     
-    embed_page_content = run_command(f"curl -L '{playerado_url}'")
+    player_link = player_link_match.group(1).replace('player.php', 'player2.php')
+
+    player_page_content = run_command(f"curl -L '{player_link}'")
+    if not player_page_content: return None, None, None, None
+
+    embed_iframe_match = re.search(r'<iframe[^>]+src="(https://cdn.dadocric.st/embed.php\?id=[^\"]+)"', player_page_content)
+    if not embed_iframe_match:
+        logging.warning(f"Could not find cdn.dadocric.st iframe in {player_link}")
+        return None, None, None, None
+    
+    embed_link = embed_iframe_match.group(1)
+
+    embed_page_content = run_command(f"curl -L '{embed_link}'")
     if not embed_page_content: return None, None, None, None
 
-    fid_match = re.search(r'fid\s*=\s*\"([^\"]+)\"', embed_page_content)
-    v_con_match = re.search(r'v_con\s*=\s*\"([^\"]+)\"', embed_page_content)
-    v_dt_match = re.search(r'v_dt\s*=\s*\"([^\"]+)\"', embed_page_content)
-    if not (fid_match and v_con_match and v_dt_match): return None, None, None, None
-    fid, v_con, v_dt = fid_match.group(1), v_con_match.group(1), v_dt_match.group(1)
+    fid_match = re.search(r'fid="([^"]+)"', embed_page_content)
+    v_con_match = re.search(r'v_con="([^"]+)"', embed_page_content)
+    v_dt_match = re.search(r'v_dt="([^"]+)"', embed_page_content)
+    
+    if not (fid_match and v_con_match and v_dt_match):
+        logging.warning(f"Could not find required variables in {embed_link}")
+        return None, None, None, None
+        
+    fid = fid_match.group(1)
+    v_con = v_con_match.group(1)
+    v_dt = v_dt_match.group(1)
 
     atplay_url = f"https://player0003.com/atplay.php?v={fid}&hello={v_con}&expires={v_dt}"
-    atplay_page_content = run_command(f"curl -iL --user-agent \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\" --referer \"https://playerado.top/\" '{atplay_url}'")
+    
+    atplay_page_content = run_command(f"curl -L -H 'Referer: https://cdn.dadocric.st/' '{atplay_url}'")
     if not atplay_page_content: return None, None, None, None
 
-    func_name_match = re.search(r'player\.load\({source: (\w+)\(\),', atplay_page_content)
-    if not func_name_match: return None, None, None, None
-    func_name = func_name_match.group(1)
+    stream_url_match = re.search(r'return\(\[(.*?)\]\.join', atplay_page_content, re.DOTALL)
+    if not stream_url_match:
+        logging.warning(f"Could not find stream URL array in {atplay_url}")
+        return None, None, None, None
 
-    func_def_match = re.search(r'function\s+' + func_name + r'\s*\(\)\s*{(.*?)}', atplay_page_content, re.DOTALL)
-    if not func_def_match: return None, None, None, None
-    func_body = func_def_match.group(1)
+    char_array_str = stream_url_match.group(1)
+    char_list = re.findall(r'"(.*?)"', char_array_str)
+    stream_url = "".join(char_list).replace('\\/', '/')
 
-    base_url_var_match = re.search(r'var url = (\w+);', func_body)
-    md5_var_match = re.search(r'url \+= "\?md5="\s*\+\s*(\w+);', func_body)
-    expires_var_match = re.search(r'url \+= "&expires="\s*\+\s*(\w+);', func_body)
-    s_var_match = re.search(r'url \+= "&s="\s*\+\s*(\w+);', func_body)
-    if not (base_url_var_match and md5_var_match and expires_var_match and s_var_match): return None, None, None, None
+    if not stream_url:
+        return None, None, None, None
 
-    base_url_var, md5_var, expires_var, s_var = base_url_var_match.group(1), md5_var_match.group(1), expires_var_match.group(1), s_var_match.group(1)
-
-    md5_val_match = re.search(r'var ' + md5_var + r'\s*=\s*\"(.*?)\"', atplay_page_content)
-    expires_val_match = re.search(r'var ' + expires_var + r'\s*=\s*\"(.*?)\"', atplay_page_content)
-    s_val_match = re.search(r'var ' + s_var + r'\s*=\s*\"(.*?)\"', atplay_page_content)
-    if not (md5_val_match and expires_val_match and s_val_match): return None, None, None, None
-    md5, expires, s_val = md5_val_match.group(1), expires_val_match.group(1), s_val_match.group(1)
-
-    base_url_constructor_match = re.search(r'var ' + base_url_var + r'\s*=\s*(.*?);', atplay_page_content)
-    if not base_url_constructor_match: return None, None, None, None
-    constructor_string = base_url_constructor_match.group(1)
-    real_base_url_var = constructor_string.split('+')[0].strip()
-    
-    real_base_url_match = re.search(r"var " + real_base_url_var + r" = (.*?);", atplay_page_content)
-    if not real_base_url_match: return None, None, None, None
-    base_url_str_with_plus = real_base_url_match.group(1)
-    js_string_parts = re.findall(r"'(.*?)'", base_url_str_with_plus)
-    base_url = "".join(js_string_parts)
-    
-    stream_path = f"/hls/{fid}.m3u8"
-    final_stream_link = f"{base_url}{stream_path}?md5={md5}&expires={expires}&ch={fid}&s={s_val}"
-    
     channel_name_match = re.search(r'<title>(.*?)</title>', channel_page_content)
     raw_name = channel_name_match.group(1).split(" Live Streaming")[0].strip() if channel_name_match else "Unknown Channel"
     channel_name = clean_channel_name(raw_name)
 
-    return channel_name, final_stream_link, "https://player0003.com/", "crichd1"
+    return channel_name, stream_url, "https://player0003.com/", "crichd1"
+
 
 # --- Main Execution ---
 
