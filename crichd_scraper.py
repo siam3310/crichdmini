@@ -30,13 +30,17 @@ def run_command(command):
         return None
 
 def clean_channel_name(name):
-    name = re.sub(r'(\s*Live Stream(ing)?|\s*-\s*CricHD|\s*US\s*-|\s*-\s*Free|\s*Watch|\s*HD|\s*-\s*PSL T20 On|\s*Play\s*-\s*01)', '', name, flags=re.IGNORECASE)
+    name = re.sub(r'(\s*Live Stream(ing)?|\s*-\s*CricHD|\s*US\s*-|\s*-\s*Free|\s*Watch|\s*HD|\s*-\s*PSL T20 On|\s*Play\s*-\s*01|\s*-\s*Live.*|\s*Live.*)', '', name, flags=re.IGNORECASE)
     return " ".join(name.split())
 
 def get_category(channel_name):
-    cricket_keywords = ['cricket', 'cric', 'ten sports', 'ptv sports', 'a sports', 'willow', 'geo super']
+    name_lower = channel_name.lower()
+    cricket_keywords = [
+        'cricket', 'cric', 'willow', 'geo super', 'ptv', 'ten', 
+        'a sports', 'star sports'
+    ]
     for keyword in cricket_keywords:
-        if keyword in channel_name.lower():
+        if keyword in name_lower:
             return "Cricket"
     return "Sports"
 
@@ -105,7 +109,7 @@ def get_stream_link_go(channel_url):
     raw_name = channel_name_match.group(1).split("|")[0].strip() if channel_name_match else "Unknown Channel"
     channel_name = clean_channel_name(raw_name)
 
-    return channel_name, stream_url, "https://executeandship.com/", get_category(channel_name)
+    return channel_name, stream_url, "https://executeandship.com/", get_category(raw_name)
 
 # --- crichd.com.co scraper functions ---
 
@@ -178,7 +182,7 @@ def get_stream_link_crichd(channel_url):
     raw_name = channel_name_match.group(1).split(" Live Streaming")[0].strip() if channel_name_match else "Unknown Channel"
     channel_name = clean_channel_name(raw_name)
 
-    return channel_name, stream_url, "https://player0003.com/", get_category(channel_name)
+    return channel_name, stream_url, "https://player0003.com/", get_category(raw_name)
 
 
 # --- Main Execution ---
@@ -201,8 +205,9 @@ if __name__ == "__main__":
     unique_channels = []
     seen_names = set()
     for name, stream, referrer, category in all_channels:
+        # Use the raw name for uniqueness check before cleaning
         if name not in seen_names:
-            unique_channels.append((name, stream, referrer, category))
+            unique_channels.append((clean_channel_name(name), stream, referrer, category))
             seen_names.add(name)
 
     total_channels = len(unique_channels)
@@ -226,4 +231,4 @@ if __name__ == "__main__":
             f.write(f"#EXTVLCOPT:http-referrer={referrer}\n")
             f.write(f"{stream}\n")
     
-    logging.info(f"Scraping complete. Found {total_channels} unique, working channels.")
+    logging.info(f"Scraping complete. Found {total_channels} unique channels.")
