@@ -14,6 +14,7 @@ CRICHD_BASE_URL = "https://crichd.com.co"
 CRICHD_GO_BASE_URL = "https://go.crichd.tv"
 OUTPUT_M3U_FILE = "siamscrichd.m3u"
 EPG_URL = "https://github.com/epgshare01/share/raw/master/epg_ripper_ALL_SOURCES1.xml.gz"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -48,7 +49,7 @@ def get_category(channel_name):
 
 def get_channel_links_go():
     logging.info(f"Fetching channel links from {CRICHD_GO_BASE_URL}/")
-    main_page_content = run_command(f"curl -L {CRICHD_GO_BASE_URL}/")
+    main_page_content = run_command(f"curl -L -A '{USER_AGENT}' {CRICHD_GO_BASE_URL}/")
     if not main_page_content:
         return []
     pattern = r'<div class="channels">\s*<a href="([^\"]+)"'
@@ -58,7 +59,7 @@ def get_channel_links_go():
 
 def get_stream_link_go(channel_url):
     logging.info(f"Fetching stream link for go.crichd.tv: {channel_url}")
-    channel_page_content = run_command(f"curl -L -H 'Referer: {CRICHD_GO_BASE_URL}' '{channel_url}'")
+    channel_page_content = run_command(f"curl -L -A '{USER_AGENT}' -H 'Referer: {CRICHD_GO_BASE_URL}' '{channel_url}'")
     if not channel_page_content: return None, None, None, None
 
     embeds_match = re.search(r"embeds\[0\]\s*=\s*'(.*?)';", channel_page_content)
@@ -80,7 +81,7 @@ def get_stream_link_go(channel_url):
         iframe_src_1 = "https:" + iframe_src_1
 
     logging.info(f"Fetching first iframe: {iframe_src_1}")
-    iframe_content_1 = run_command(f"curl -L -H 'Referer: {channel_url}' '{iframe_src_1}'")
+    iframe_content_1 = run_command(f"curl -L -A '{USER_AGENT}' -H 'Referer: {channel_url}' '{iframe_src_1}'")
     if not iframe_content_1: return None, None, None, None
 
     fid_match = re.search(r'fid="(.*?)"', iframe_content_1)
@@ -93,7 +94,7 @@ def get_stream_link_go(channel_url):
     iframe_src_2 = f"https://executeandship.com/premium.php?player=desktop&live={fid}"
 
     logging.info(f"Fetching second iframe: {iframe_src_2}")
-    iframe_content_2 = run_command(f"curl -L -H 'Referer: {iframe_src_1}' '{iframe_src_2}'")
+    iframe_content_2 = run_command(f"curl -L -A '{USER_AGENT}' -H 'Referer: {iframe_src_1}' '{iframe_src_2}'")
     if not iframe_content_2: return None, None, None, None
 
     stream_url_parts_match = re.search(r'return \(\[(.*?)\]\.join', iframe_content_2)
@@ -115,7 +116,7 @@ def get_stream_link_go(channel_url):
 
 def get_channel_links_crichd():
     logging.info(f"Fetching channel links from {CRICHD_BASE_URL}")
-    main_page_content = run_command(f"curl -L {CRICHD_BASE_URL}")
+    main_page_content = run_command(f"curl -L -A '{USER_AGENT}' {CRICHD_BASE_URL}")
     if not main_page_content: return []
     pattern = r'<li class="has-sub"><a href="(https://crichd.com.co/channels/[^\"]+)"'
     channel_links = re.findall(pattern, main_page_content)
@@ -124,7 +125,7 @@ def get_channel_links_crichd():
 
 def get_stream_link_crichd(channel_url):
     logging.info(f"Fetching stream link for crichd.com.co: {channel_url}")
-    channel_page_content = run_command(f"curl -L '{channel_url}'")
+    channel_page_content = run_command(f"curl -L -A '{USER_AGENT}' '{channel_url}'")
     if not channel_page_content: return None, None, None, None
 
     player_link_match = re.search(r'<a href=\"(https://dadocric.st/player(?:2)?\.php\?id=[^\"]+)\"', channel_page_content)
@@ -136,7 +137,7 @@ def get_stream_link_crichd(channel_url):
     
     player_link = player_link_match.group(1).replace('player.php', 'player2.php')
 
-    player_page_content = run_command(f"curl -L '{player_link}'")
+    player_page_content = run_command(f"curl -L -A '{USER_AGENT}' '{player_link}'")
     if not player_page_content: return None, None, None, None
 
     embed_iframe_match = re.search(r'<iframe[^>]+src="(https://cdn.dadocric.st/embed.php\?id=[^\"]+)"', player_page_content)
@@ -146,7 +147,7 @@ def get_stream_link_crichd(channel_url):
     
     embed_link = embed_iframe_match.group(1)
 
-    embed_page_content = run_command(f"curl -L '{embed_link}'")
+    embed_page_content = run_command(f"curl -L -A '{USER_AGENT}' '{embed_link}'")
     if not embed_page_content: return None, None, None, None
 
     fid_match = re.search(r'fid="([^"]+)"', embed_page_content)
@@ -163,7 +164,7 @@ def get_stream_link_crichd(channel_url):
 
     atplay_url = f"https://player0003.com/atplay.php?v={fid}&hello={v_con}&expires={v_dt}"
     
-    atplay_page_content = run_command(f"curl -L -H 'Referer: https://cdn.dadocric.st/' '{atplay_url}'")
+    atplay_page_content = run_command(f"curl -L -A '{USER_AGENT}' -H 'Referer: https://cdn.dadocric.st/' '{atplay_url}'")
     if not atplay_page_content: return None, None, None, None
 
     stream_url_match = re.search(r'return\(\[(.*?)\]\.join', atplay_page_content, re.DOTALL)
