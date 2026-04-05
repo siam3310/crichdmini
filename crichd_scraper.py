@@ -116,7 +116,7 @@ def get_stream_link_crichd(channel_url):
     channel_page_content = run_command(f"curl -L -A '{USER_AGENT}' -H 'Referer: {CRICHD_BASE_URL}' -H 'Origin: {origin_base}' '{channel_url}'")
     if not channel_page_content: return None, None, None, None
 
-    player_link_match = re.search(r'<a href=["\'](https://dadocric.st/player(?:2)?\.php\?id=[^"\']+)["\']', channel_page_content)
+    player_link_match = re.search(r'<a href=["\'](https://dadocric\.st/player(?:2)?\.php\?id=[^"\']+)["\']', channel_page_content)
 
     if not player_link_match:
         logging.warning(f"Could not find dadocric player link in {channel_url}")
@@ -128,7 +128,7 @@ def get_stream_link_crichd(channel_url):
     player_page_content = run_command(f"curl -L -A '{USER_AGENT}' -H 'Referer: {channel_url}' -H 'Origin: {origin_channel}' '{player_link}'")
     if not player_page_content: return None, None, None, None
 
-    embed_iframe_match = re.search(r'<iframe[^>]+src=["\'](https://cdn.dadocric.st/embed.php\?id=[^"\']+)["\']', player_page_content)
+    embed_iframe_match = re.search(r'<iframe[^>]+src=["\'](https://cdn\.dadocric\.st/embed\.php\?id=[^"\']+)["\']', player_page_content)
     if not embed_iframe_match:
         logging.warning(f"Could not find cdn.dadocric.st iframe in {player_link}")
         return None, None, None, None
