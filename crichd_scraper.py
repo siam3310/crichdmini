@@ -14,14 +14,14 @@ CRICHD_BASE_URL = "https://crichd.com.co"
 CRICHD_GO_BASE_URL = "https://go.crichd.tv"
 OUTPUT_M3U_FILE = "siamscrichd.m3u"
 EPG_URL = "https://github.com/epgshare01/share/raw/master/epg_ripper_ALL_SOURCES1.xml.gz"
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def run_command(command):
     logging.info(f"Running command: {command}")
     try:
-        result = subprocess.run(command, capture_output=True, shell=True, check=True, timeout=20)
+        result = subprocess.run(command, capture_output=True, shell=True, check=True, timeout=30)
         return result.stdout.decode('utf-8', errors='ignore')
     except subprocess.TimeoutExpired:
         logging.error(f"Command timed out: {command}")
@@ -37,7 +37,7 @@ def get_channel_links_go():
     main_page_content = run_command(f"curl -L -A '{USER_AGENT}' -H 'Origin: {CRICHD_GO_BASE_URL}' {CRICHD_GO_BASE_URL}/")
     if not main_page_content:
         return []
-    pattern = r'<div class="channels">\s*<a href="([^"]+)"'
+    pattern = r'href="(https://go.crichd.tv/[^"]+-live-streaming)"'
     channel_links = re.findall(pattern, main_page_content)
     logging.info(f"Found {len(channel_links)} channel links from {CRICHD_GO_BASE_URL}")
     return list(dict.fromkeys(channel_links))
@@ -70,7 +70,7 @@ def get_stream_link_go(channel_url):
     iframe_content_1 = run_command(f"curl -L -A '{USER_AGENT}' -H 'Referer: {channel_url}' -H 'Origin: {origin_channel}' '{iframe_src_1}'")
     if not iframe_content_1: return None, None, None, None
 
-    fid_match = re.search(r'fid="(.*?)"', iframe_content_1)
+    fid_match = re.search(r'fid="([^"]+)"', iframe_content_1)
     if not fid_match:
         logging.warning(f"Could not find fid for {channel_url}")
         return None, None, None, None
@@ -85,15 +85,25 @@ def get_stream_link_go(channel_url):
     iframe_content_2 = run_command(f"curl -L -A '{USER_AGENT}' -H 'Referer: {iframe_src_1}' -H 'Origin: {origin_iframe1}' '{iframe_src_2}'")
     if not iframe_content_2: return None, None, None, None
 
+    stream_url = ''
     stream_url_parts_match = re.search(r'return\s*\(\s*\[(.*?)\]\.join', iframe_content_2)
-    if not stream_url_parts_match:
-        logging.warning(f"Could not find stream URL parts for {channel_url}")
+    if stream_url_parts_match:
+        char_array_str = stream_url_parts_match.group(1)
+        char_list = [c.strip().strip('"') for c in char_array_str.split(',')]
+        stream_url = "".join(char_list).replace('\\/', '/')
+    else:
+        m3u8_match = re.search(r'source:\s*["\'](https?://[^"\']+\.m3u8[^"\']*)["\']', iframe_content_2)
+        if m3u8_match:
+            stream_url = m3u8_match.group(1)
+            logging.info("Found m3u8 in source.")
+        else:
+            logging.warning(f"Could not find stream URL parts for {channel_url}")
+            return None, None, None, None
+
+    if not stream_url:
+        logging.warning(f"Stream URL is empty for {channel_url}")
         return None, None, None, None
-
-    char_array_str = stream_url_parts_match.group(1)
-    char_list = [c.strip().strip('"') for c in char_array_str.split(',')]
-    stream_url = "".join(char_list).replace('\\/', '/')
-
+        
     channel_name_match = re.search(r'<title>(.*?)</title>', channel_page_content)
     raw_name = channel_name_match.group(1).split("|")[0].strip() if channel_name_match else "Unknown Channel"
 
@@ -105,10 +115,10 @@ def get_channel_links_crichd():
     logging.info(f"Fetching channel links from {CRICHD_BASE_URL}")
     main_page_content = run_command(f"curl -L -A '{USER_AGENT}' -H 'Origin: {CRICHD_BASE_URL}' {CRICHD_BASE_URL}")
     if not main_page_content: return []
-    pattern = r'<li class="has-sub"><a href="(https://crichd.com.co/channels/[^"]+)"'
+    pattern = r'href="(https://crichd.com.co/[^"].*?-live-streaming)"'
     channel_links = re.findall(pattern, main_page_content)
     logging.info(f"Found {len(channel_links)} channel links from {CRICHD_BASE_URL}")
-    return channel_links
+    return list(dict.fromkeys(channel_links))
 
 def get_stream_link_crichd(channel_url):
     logging.info(f"Fetching stream link for crichd.com.co: {channel_url}")
