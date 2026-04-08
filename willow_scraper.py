@@ -7,13 +7,15 @@ import sys
 import os
 import cloudscraper
 from bs4 import BeautifulSoup
+import pytz
 
 # --- Configuration ---
 CRICHD_BASE_URL = "https://vf.crichd.tv"
 WEB_URL = "https://vf.crichd.tv/web"
 OUTPUT_M3U_FILE = "siamscrichd.m3u"
+FINAL_REFERRER = "https://executeandship.com/"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
-REQUESTS_TIMEOUT = 30
+REQUESTS_TIMEOUT = 15
 
 # --- Logging Setup ---
 logging.basicConfig(
@@ -50,7 +52,7 @@ fid_to_channel = {
 }
 
 def get_page_content(url, referrer=None):
-    """Fetches content for a given URL using the cloudscraper session."""
+    """Fetches content for a given URL."""
     logging.debug(f"Fetching URL: {url} with referrer: {referrer}")
     try:
         response = scraper.get(url, headers={'Referer': referrer} if referrer else {}, timeout=REQUESTS_TIMEOUT)
@@ -61,12 +63,10 @@ def get_page_content(url, referrer=None):
         return None
 
 def get_fids_and_referrers():
-    """Scrapes all channel pages from dedicated lists to collect FIDs and referrers."""
+    """Scrapes channel pages to collect FIDs and their intermediary referrers."""
     logging.info("--- Step 1: Finding all channel pages and collecting FIDs/referrers ---")
     main_page_content = get_page_content(WEB_URL)
-    if not main_page_content:
-        logging.critical("Failed to fetch main web page. Exiting.")
-        return []
+    if not main_page_content: return []
 
     soup = BeautifulSoup(main_page_content, 'html.parser')
     unique_links = set()
@@ -74,11 +74,10 @@ def get_fids_and_referrers():
         panel = soup.find('div', id=panel_id)
         if panel:
             for a in panel.find_all('a', href=True):
-                href = a['href']
-                if CRICHD_BASE_URL in href and "live-stream" in href:
-                    unique_links.add(href)
+                if CRICHD_BASE_URL in a['href'] and "live-stream" in a['href']:
+                    unique_links.add(a['href'])
     
-    logging.info(f"Found {len(unique_links)} unique channel pages to process.")
+    logging.info(f"Found {len(unique_links)} unique channel pages.")
 
     collected_fids = {}
     for link in sorted(list(unique_links)):
@@ -86,81 +85,90 @@ def get_fids_and_referrers():
         channel_page_content = get_page_content(link, referrer=WEB_URL)
         if not channel_page_content: continue
 
-        intermediary_matches = re.findall(r'src=\\\"(//streamcrichd\.com/update/([^\"]+))\\\"', channel_page_content)
-        for full_path, php_file in set(intermediary_matches):
+        intermediary_matches = re.findall(r'src=\\\"(//streamcrichd\.com/update/[^\"]+)\\\"', channel_page_content)
+        for full_path in set(intermediary_matches):
             intermediary_url = f"https:{full_path}"
             intermediary_content = get_page_content(intermediary_url, referrer=link)
             if not intermediary_content: continue
 
-            fid_match = re.search(r'fid\s*=\s*["\']([^"\']+)["\']', intermediary_content)
+            fid_match = re.search(r'fid\s*=\s*[\'"]([^\'"]+)[\'"]', intermediary_content)
             if fid_match:
                 fid = fid_match.group(1)
                 if fid not in collected_fids:
-                    clean_name = fid_to_channel.get(fid, fid.upper()) # Use mapping, fallback to FID
-                    logging.info(f"SUCCESS: Found fid: '{fid}' ({clean_name})")
-                    collected_fids[fid] = {'name': clean_name, 'fid': fid, 'referrer': intermediary_url}
+                    name = fid_to_channel.get(fid, fid.upper())
+                    logging.info(f"SUCCESS: Found fid: '{fid}' ({name})")
+                    collected_fids[fid] = {'name': name, 'fid': fid, 'referrer': intermediary_url}
     
     logging.info(f"--- Finished Step 1: Collected info for {len(collected_fids)} unique FIDs. ---")
     return list(collected_fids.values())
 
 def get_stream_from_fid(fid_info):
     """Uses the collected fid and referrer to get the final m3u8 stream URL."""
-    fid = fid_info['fid']
-    name = fid_info['name']
-    final_referrer = fid_info['referrer']
+    logging.info(f"--- Step 2: Extracting stream for fid: '{fid_info['fid']}' ({fid_info['name']}) ---")
+    player_url = f"https://executeandship.com/premiumcr.php?player=desktop&live={fid_info['fid']}"
+    player_page_content = get_page_content(player_url, referrer=fid_info['referrer'])
 
-    logging.info(f"--- Step 2: Extracting stream for fid: '{fid}' ({name}) ---")
-    player_url = f"https://executeandship.com/premiumcr.php?player=desktop&live={fid}"
-    player_page_content = get_page_content(player_url, referrer=final_referrer)
-
-    if not player_page_content:
-        logging.error(f"Failed to fetch final player page for fid: {fid}")
-        return None
+    if not player_page_content: return None
 
     stream_array_match = re.search(r"return \(\[(.*?)\]\.join", player_page_content, re.DOTALL)
-    if not stream_array_match:
-        logging.error(f"Could not find the stream URL array for fid: {fid}.")
-        return None
+    if not stream_array_match: return None
 
-    char_list_str = stream_array_match.group(1)
-    char_list = re.findall(r'"([^"]*)"', char_list_str)
+    char_list = re.findall(r'"([^"]*)"', stream_array_match.group(1))
     final_url = "".join(char_list).replace("\\/", "/")
 
-    if "m3u8" in final_url:
-        logging.info(f"SUCCESS: Extracted stream for '{name}'")
-        return final_url
-    else:
-        logging.warning(f"Extracted URL for '{name}' may not be a valid m3u8 stream.")
-        return None
+    return final_url if "m3u8" in final_url else None
+
+def is_stream_working(stream_url):
+    """Checks if a stream URL is a valid and working M3U8 playlist."""
+    logging.info(f"--- Step 3: Verifying stream: {stream_url} ---")
+    try:
+        response = scraper.get(stream_url, headers={'Referer': FINAL_REFERRER}, timeout=10)
+        if response.status_code == 200 and '#EXTM3U' in response.text:
+            logging.info(" -> Stream is VALID.")
+            return True
+        else:
+            logging.warning(f" -> Stream validation FAILED. Status: {response.status_code}")
+            return False
+    except requests.exceptions.RequestException as e:
+        logging.error(f" -> Error while verifying stream: {e}")
+        return False
 
 if __name__ == "__main__":
-    logging.info("--- STARTING CRICHD STREAM GETTER ---")
+    logging.info("--- STARTING CRICHD STREAM GETTER (WITH VALIDATION & HEADER) ---")
     fids_info = get_fids_and_referrers()
     all_streams = []
     if fids_info:
         for fid_info in fids_info:
             stream_url = get_stream_from_fid(fid_info)
             if stream_url:
-                all_streams.append((fid_info['name'], stream_url))
+                if is_stream_working(stream_url):
+                    all_streams.append((fid_info['name'], stream_url))
+                else:
+                    logging.warning(f"Discarding non-working stream for channel: {fid_info['name']}")
 
     logging.info("--- SCRAPE COMPLETE ---")
-    total_streams = len(all_streams)
-    logging.info(f"Total streams successfully extracted: {total_streams}")
+    total_channels = len(all_streams)
+    logging.info(f"Total valid streams found: {total_channels}")
 
-    if total_streams == 0:
-        logging.warning("No streams were found. The M3U file will be empty.")
-
-    logging.info(f"Writing {total_streams} streams to {OUTPUT_M3U_FILE}")
+    logging.info(f"Writing {total_channels} streams to {OUTPUT_M3U_FILE}")
     try:
+        dhaka_tz = pytz.timezone('Asia/Dhaka')
+        update_time = datetime.datetime.now(dhaka_tz).strftime('%Y-%m-%d %H:%M:%S %Z')
+        header = (
+            f"#EXTM3U\n"
+            f"#CREDIT: Siam3310\n"
+            f"#LAST UPDATED: {update_time}\n"
+            f"#TOTAL CHANNELS: {total_channels}\n\n"
+        )
+
         with open(OUTPUT_M3U_FILE, "w", encoding='utf-8') as f:
-            f.write("#EXTM3U\n")
-            # Sort by channel name for a clean list
+            f.write(header)
             for name, stream_url in sorted(all_streams, key=lambda x: x[0]):
                 f.write(f'#EXTINF:-1,{name}\n')
+                f.write(f'#EXTVLCOPT:http-referrer={FINAL_REFERRER}\n')
                 f.write(f"{stream_url}\n")
         logging.info("M3U file written successfully.")
     except Exception as e:
         logging.critical("Failed to write the M3U file.", exc_info=True)
-        sys.exit(1)
 
     logging.info("--- SCRIPT EXECUTION FINISHED ---")
