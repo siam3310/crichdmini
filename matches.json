@@ -33,15 +33,6 @@
         ]
     },
     {
-        "title": "ATP 1000: Monte Carlo",
-        "competition": "ATP Tour",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/atp-1000-monte-carlo-live-streaming",
-        "channels": [
-            "Sky Sports Tennis"
-        ]
-    },
-    {
         "title": "Kolkata Knight Riders vs Lucknow Super Giants",
         "competition": "IPL T20",
         "status": "Upcoming",
