@@ -35,7 +35,7 @@
     {
         "title": "Milwaukee Bucks vs Detroit Pistons",
         "competition": "NBA",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/milwaukee-bucks-vs-detroit-pistons-live-streaming",
         "channels": [
             "Sky Sports  Action"
@@ -44,10 +44,19 @@
     {
         "title": "Atlanta Hawks vs Cleveland Cavaliers",
         "competition": "NBA",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/atlanta-hawks-vs-cleveland-cavaliers-live-streaming",
         "channels": [
             "Sky Sports  Action"
+        ]
+    },
+    {
+        "title": "ATP 1000: Monte Carlo",
+        "competition": "ATP Tour",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/atp-1000-monte-carlo-live-streaming",
+        "channels": [
+            "Sky Sports Tennis"
         ]
     },
     {
@@ -78,12 +87,39 @@
         ]
     },
     {
+        "title": "Brisbane Broncos vs North Queensland",
+        "competition": "",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/brisbane-broncos-vs-north-queensland-live-streaming",
+        "channels": [
+            "Sky Sports  Action"
+        ]
+    },
+    {
         "title": "Rajasthan Royals vs RCB",
         "competition": "IPL T20",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/rajasthan-royals-vs-rcb-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
+        ]
+    },
+    {
+        "title": "London Pulse vs London Mavericks",
+        "competition": "NBA",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/london-pulse-vs-london-mavericks-live-streaming",
+        "channels": [
+            "Sky Sports Mix"
+        ]
+    },
+    {
+        "title": "Colchester United vs Swindon Town",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/colchester-united-vs-swindon-town-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
         ]
     },
     {
@@ -213,6 +249,15 @@
         ]
     },
     {
+        "title": "Plymouth Argyle vs Exeter City",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/plymouth-argyle-vs-exeter-city-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
         "title": "Chennai Super Kings vs Delhi Capitals",
         "competition": "IPL T20",
         "status": "Upcoming",
@@ -267,6 +312,15 @@
         ]
     },
     {
+        "title": "ATP / WTA: Barcelona / Munich / Rouen / Stuttgart",
+        "competition": "ATP Tour",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/atp-wta-barcelona-munich-rouen-stuttgart-live-streaming",
+        "channels": [
+            "Sky Sports Tennis"
+        ]
+    },
+    {
         "title": "Sunrisers Hyderabad vs Rajasthan Royals",
         "competition": "IPL T20",
         "status": "Upcoming",
@@ -289,6 +343,15 @@
         "competition": "IPL T20",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/rcb-vs-lucknow-super-giants-live-streaming",
+        "channels": [
+            "Sky Sports  Cricket"
+        ]
+    },
+    {
+        "title": "Mumbai Indians vs Punjab Kings",
+        "competition": "IPL T20",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/mumbai-indians-vs-punjab-kings-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
         ]
