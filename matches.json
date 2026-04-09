@@ -33,24 +33,6 @@
         ]
     },
     {
-        "title": "Milwaukee Bucks vs Detroit Pistons",
-        "competition": "NBA",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/milwaukee-bucks-vs-detroit-pistons-live-streaming",
-        "channels": [
-            "Sky Sports  Action"
-        ]
-    },
-    {
-        "title": "Atlanta Hawks vs Cleveland Cavaliers",
-        "competition": "NBA",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/atlanta-hawks-vs-cleveland-cavaliers-live-streaming",
-        "channels": [
-            "Sky Sports  Action"
-        ]
-    },
-    {
         "title": "ATP 1000: Monte Carlo",
         "competition": "ATP Tour",
         "status": "Upcoming",
@@ -69,12 +51,75 @@
         ]
     },
     {
+        "title": "Rayo Vallecano vs AEK Athens",
+        "competition": "UEFA Europa Conference League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/rayo-vallecano-vs-aek-athens-live-streaming",
+        "channels": [
+            "TNT Sports 4"
+        ]
+    },
+    {
         "title": "Premier League Darts: Brighton",
         "competition": "English Premier League",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/premier-league-darts-brighton-live-streaming",
         "channels": [
             "Sky Sports  Action"
+        ]
+    },
+    {
+        "title": "Crystal Palace vs Fiorentina",
+        "competition": "UEFA Europa Conference League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/crystal-palace-vs-fiorentina-live-streaming",
+        "channels": [
+            "TNT Sports 3"
+        ]
+    },
+    {
+        "title": "Mainz vs Strasbourg",
+        "competition": "UEFA Europa Conference League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/mainz-vs-strasbourg-live-streaming",
+        "channels": [
+            "Ch11 ( TNT Sports 6 )"
+        ]
+    },
+    {
+        "title": "Shakhtar Donetsk vs AZ Alkmaar",
+        "competition": "UEFA Europa Conference League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/shakhtar-donetsk-vs-az-alkmaar-live-streaming",
+        "channels": [
+            "Ch12 ( TNT Sports 7 )"
+        ]
+    },
+    {
+        "title": "Bologna v Aston Villa",
+        "competition": "UEFA Europa League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/bologna-v-aston-villa-live-streaming",
+        "channels": [
+            "TNT Sports 2"
+        ]
+    },
+    {
+        "title": "FC Porto vs Nottingham Forest",
+        "competition": "UEFA Europa League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/fc-porto-vs-nottingham-forest-live-streaming",
+        "channels": [
+            "TNT Sports 1"
+        ]
+    },
+    {
+        "title": "SC Freiburg vs Celta Vigo",
+        "competition": "UEFA Europa League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/sc-freiburg-vs-celta-vigo-live-streaming",
+        "channels": [
+            "Ch10 ( TNT Sports 5 )"
         ]
     },
     {
