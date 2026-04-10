@@ -33,15 +33,6 @@
         ]
     },
     {
-        "title": "London Pulse vs London Mavericks",
-        "competition": "NBA",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/london-pulse-vs-london-mavericks-live-streaming",
-        "channels": [
-            "Sky Sports Mix"
-        ]
-    },
-    {
         "title": "Colchester United vs Swindon Town",
         "competition": "English Championship",
         "status": "Live",
@@ -69,6 +60,15 @@
         ]
     },
     {
+        "title": "One Championship: Fight Night",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/one-championship-fight-night-live-streaming",
+        "channels": [
+            "Sky Sports  Action"
+        ]
+    },
+    {
         "title": "Moana Pasifika vs Chiefs",
         "competition": "",
         "status": "Upcoming",
@@ -93,6 +93,24 @@
         "match_url": "https://vf.crichd.tv/hurricanes-vs-blues-live-streaming",
         "channels": [
             "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Cronulla-Sutherland Sharks vs Sydney Roosters",
+        "competition": "",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/cronulla-sutherland-sharks-vs-sydney-roosters-live-streaming",
+        "channels": [
+            "Sky Sports  Action"
+        ]
+    },
+    {
+        "title": "Melbourne Storm vs New Zealand Warriors",
+        "competition": "NBA",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/melbourne-storm-vs-new-zealand-warriors-live-streaming",
+        "channels": [
+            "Sky Sports  Action"
         ]
     },
     {
@@ -195,6 +213,24 @@
         ]
     },
     {
+        "title": "ATP 1000: Monte Carlo",
+        "competition": "ATP Tour",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/atp-1000-monte-carlo-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Manchester Thunder vs NIC Leeds Rhinos",
+        "competition": "NBA",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/manchester-thunder-vs-nic-leeds-rhinos-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
         "title": "Liverpool vs Fulham",
         "competition": "English Premier League",
         "status": "Upcoming",
@@ -213,6 +249,15 @@
         ]
     },
     {
+        "title": "Nottingham Forest vs Loughborough Lightning",
+        "competition": "",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/nottingham-forest-vs-loughborough-lightning-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
         "title": "Lucknow Super Giants vs Gujarat Titans",
         "competition": "IPL T20",
         "status": "Upcoming",
@@ -228,6 +273,15 @@
         "match_url": "https://vf.crichd.tv/mumbai-indians-vs-rcb-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
+        ]
+    },
+    {
+        "title": "Orlando Magic vs Boston Celtics",
+        "competition": "NBA",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/orlando-magic-vs-boston-celtics-live-streaming",
+        "channels": [
+            "Sky Sports  Action"
         ]
     },
     {
@@ -343,6 +397,15 @@
         "competition": "NBA",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/tbc-vs-tbc-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Crusaders vs Waratahs",
+        "competition": "",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/crusaders-vs-waratahs-live-streaming",
         "channels": [
             "Sky Sports Main Event"
         ]
