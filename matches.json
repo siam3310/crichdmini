@@ -33,33 +33,6 @@
         ]
     },
     {
-        "title": "Colchester United vs Swindon Town",
-        "competition": "English Championship",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/colchester-united-vs-swindon-town-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "West Bromwich Albion vs Millwall",
-        "competition": "English Championship",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/west-bromwich-albion-vs-millwall-live-streaming",
-        "channels": [
-            "Sky Sports Football"
-        ]
-    },
-    {
-        "title": "West Ham United vs Wolverhampton Wanderers",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/west-ham-united-vs-wolverhampton-wanderers-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
         "title": "One Championship: Fight Night",
         "competition": "English Championship",
         "status": "Upcoming",
@@ -204,6 +177,24 @@
         ]
     },
     {
+        "title": "Arsenal vs Bournemouth AFC",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/arsenal-vs-bournemouth-afc-live-streaming",
+        "channels": [
+            "TNT Sports 1"
+        ]
+    },
+    {
+        "title": "Real Sociedad vs Deportivo Alaves",
+        "competition": "Super Lig",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/real-sociedad-vs-deportivo-alaves-live-streaming",
+        "channels": [
+            "LaLiga Tv"
+        ]
+    },
+    {
         "title": "Chennai Super Kings vs Delhi Capitals",
         "competition": "IPL T20",
         "status": "Upcoming",
@@ -219,6 +210,15 @@
         "match_url": "https://vf.crichd.tv/atp-1000-monte-carlo-live-streaming",
         "channels": [
             "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Elche vs Valencia",
+        "competition": "Super Lig",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/elche-vs-valencia-live-streaming",
+        "channels": [
+            "LaLiga Tv"
         ]
     },
     {
@@ -246,6 +246,15 @@
         "match_url": "https://vf.crichd.tv/st-pauli-vs-bayern-munich-live-streaming",
         "channels": [
             "Sky Sports Football"
+        ]
+    },
+    {
+        "title": "Barcelona vs Espanyol",
+        "competition": "Spanish La Liga",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/barcelona-vs-espanyol-live-streaming",
+        "channels": [
+            "Viaplay Sports 2 (CH2)"
         ]
     },
     {
