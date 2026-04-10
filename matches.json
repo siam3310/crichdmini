@@ -33,18 +33,9 @@
         ]
     },
     {
-        "title": "Highlanders vs Brumbies",
-        "competition": "",
-        "status": "Upcoming",
-        "match_url": "https://vf.crichd.tv/highlanders-vs-brumbies-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
         "title": "ATP 1000: Monte Carlo",
         "competition": "ATP Tour",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/atp-1000-monte-carlo-live-streaming",
         "channels": [
             "Sky Sports Tennis"
@@ -53,7 +44,7 @@
     {
         "title": "Brisbane Broncos vs North Queensland",
         "competition": "",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/brisbane-broncos-vs-north-queensland-live-streaming",
         "channels": [
             "Sky Sports  Action"
