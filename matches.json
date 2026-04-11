@@ -33,24 +33,6 @@
         ]
     },
     {
-        "title": "Melbourne Storm vs New Zealand Warriors",
-        "competition": "NBA",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/melbourne-storm-vs-new-zealand-warriors-live-streaming",
-        "channels": [
-            "Sky Sports  Action"
-        ]
-    },
-    {
-        "title": "Reds vs Crusaders",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/reds-vs-crusaders-live-streaming",
-        "channels": [
-            "Sky Sports Mix"
-        ]
-    },
-    {
         "title": "Punjab Kings vs Sunrisers Hyderabad",
         "competition": "IPL T20",
         "status": "Live",
@@ -62,7 +44,7 @@
     {
         "title": "Bristol Rovers vs Crawley Town",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/bristol-rovers-vs-crawley-town-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -71,7 +53,7 @@
     {
         "title": "Cardiff City vs Bolton Wanderers",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/cardiff-city-vs-bolton-wanderers-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -80,7 +62,7 @@
     {
         "title": "Coventry City vs Sheffield Wednesday",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/coventry-city-vs-sheffield-wednesday-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -89,7 +71,7 @@
     {
         "title": "Lincoln City vs Leyton Orient",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/lincoln-city-vs-leyton-orient-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -98,7 +80,7 @@
     {
         "title": "Milton Keynes Dons vs Bromley",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/milton-keynes-dons-vs-bromley-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -107,7 +89,7 @@
     {
         "title": "Norwich City vs Ipswich Town",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/norwich-city-vs-ipswich-town-live-streaming",
         "channels": [
             "Sky Sports Football"
@@ -116,7 +98,7 @@
     {
         "title": "Queens Park Rangers vs Bristol City",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/queens-park-rangers-vs-bristol-city-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -125,7 +107,7 @@
     {
         "title": "Plymouth Argyle vs Exeter City",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/plymouth-argyle-vs-exeter-city-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -134,7 +116,7 @@
     {
         "title": "Arsenal vs Bournemouth AFC",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/arsenal-vs-bournemouth-afc-live-streaming",
         "channels": [
             "TNT Sports 1"
@@ -143,7 +125,7 @@
     {
         "title": "Real Sociedad vs Deportivo Alaves",
         "competition": "Super Lig",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/real-sociedad-vs-deportivo-alaves-live-streaming",
         "channels": [
             "LaLiga Tv"
