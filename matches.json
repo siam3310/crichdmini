@@ -33,18 +33,9 @@
         ]
     },
     {
-        "title": "Cronulla-Sutherland Sharks vs Sydney Roosters",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/cronulla-sutherland-sharks-vs-sydney-roosters-live-streaming",
-        "channels": [
-            "Sky Sports  Action"
-        ]
-    },
-    {
         "title": "Melbourne Storm vs New Zealand Warriors",
         "competition": "NBA",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/melbourne-storm-vs-new-zealand-warriors-live-streaming",
         "channels": [
             "Sky Sports  Action"
@@ -53,7 +44,7 @@
     {
         "title": "Reds vs Crusaders",
         "competition": "",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/reds-vs-crusaders-live-streaming",
         "channels": [
             "Sky Sports Mix"
@@ -62,7 +53,7 @@
     {
         "title": "Punjab Kings vs Sunrisers Hyderabad",
         "competition": "IPL T20",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/punjab-kings-vs-sunrisers-hyderabad-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
