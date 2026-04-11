@@ -33,18 +33,9 @@
         ]
     },
     {
-        "title": "One Championship: Fight Night",
-        "competition": "English Championship",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/one-championship-fight-night-live-streaming",
-        "channels": [
-            "Sky Sports  Action"
-        ]
-    },
-    {
         "title": "Moana Pasifika vs Chiefs",
         "competition": "",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/moana-pasifika-vs-chiefs-live-streaming",
         "channels": [
             "Sky Sports Main Event"
