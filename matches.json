@@ -33,24 +33,6 @@
         ]
     },
     {
-        "title": "Chennai Super Kings vs Delhi Capitals",
-        "competition": "IPL T20",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/chennai-super-kings-vs-delhi-capitals-live-streaming",
-        "channels": [
-            "Sky Sports  Cricket"
-        ]
-    },
-    {
-        "title": "ATP 1000: Monte Carlo",
-        "competition": "ATP Tour",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/atp-1000-monte-carlo-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
         "title": "Manchester Thunder vs NIC Leeds Rhinos",
         "competition": "NBA",
         "status": "Live",
