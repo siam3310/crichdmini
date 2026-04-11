@@ -62,7 +62,7 @@
     {
         "title": "Liverpool vs Fulham",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/liverpool-vs-fulham-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -71,7 +71,7 @@
     {
         "title": "St Pauli vs Bayern Munich",
         "competition": "Bundesliga",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/st-pauli-vs-bayern-munich-live-streaming",
         "channels": [
             "Sky Sports Football"
@@ -80,7 +80,7 @@
     {
         "title": "Barcelona vs Espanyol",
         "competition": "Spanish La Liga",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/barcelona-vs-espanyol-live-streaming",
         "channels": [
             "Viaplay Sports 2 (CH2)"
