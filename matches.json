@@ -51,18 +51,9 @@
         ]
     },
     {
-        "title": "Elche vs Valencia",
-        "competition": "Super Lig",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/elche-vs-valencia-live-streaming",
-        "channels": [
-            "LaLiga Tv"
-        ]
-    },
-    {
         "title": "Manchester Thunder vs NIC Leeds Rhinos",
         "competition": "NBA",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/manchester-thunder-vs-nic-leeds-rhinos-live-streaming",
         "channels": [
             "Sky Sports Main Event"
