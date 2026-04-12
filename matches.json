@@ -33,15 +33,6 @@
         ]
     },
     {
-        "title": "Lucknow Super Giants vs Gujarat Titans",
-        "competition": "IPL T20",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/lucknow-super-giants-vs-gujarat-titans-live-streaming",
-        "channels": [
-            "Sky Sports  Cricket"
-        ]
-    },
-    {
         "title": "ATP 1000: Monte Carlo",
         "competition": "ATP Tour",
         "status": "Live",
@@ -80,7 +71,7 @@
     {
         "title": "Mumbai Indians vs RCB",
         "competition": "IPL T20",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/mumbai-indians-vs-rcb-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
@@ -89,7 +80,7 @@
     {
         "title": "Luton Town vs Stockport County",
         "competition": "English Football League Cup",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/luton-town-vs-stockport-county-live-streaming",
         "channels": [
             "Sky Sports Football"
