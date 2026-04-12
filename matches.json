@@ -44,7 +44,7 @@
     {
         "title": "Birmingham City vs Wrexham",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/birmingham-city-vs-wrexham-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -53,7 +53,7 @@
     {
         "title": "Falkirk vs Rangers",
         "competition": "Scottish Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/falkirk-vs-rangers-live-streaming",
         "channels": [
             "Sky Sports Football"
@@ -62,7 +62,7 @@
     {
         "title": "ATP 1000: Monte Carlo",
         "competition": "ATP Tour",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/atp-1000-monte-carlo-live-streaming",
         "channels": [
             "Sky Sports Tennis"
