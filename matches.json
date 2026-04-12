@@ -42,24 +42,6 @@
         ]
     },
     {
-        "title": "Birmingham City vs Wrexham",
-        "competition": "English Championship",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/birmingham-city-vs-wrexham-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "Falkirk vs Rangers",
-        "competition": "Scottish Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/falkirk-vs-rangers-live-streaming",
-        "channels": [
-            "Sky Sports Football"
-        ]
-    },
-    {
         "title": "ATP 1000: Monte Carlo",
         "competition": "ATP Tour",
         "status": "Live",
@@ -71,7 +53,7 @@
     {
         "title": "Crystal Palace vs Newcastle United",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/crystal-palace-vs-newcastle-united-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -80,7 +62,7 @@
     {
         "title": "Nottingham Forest vs Aston Villa",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/nottingham-forest-vs-aston-villa-live-streaming",
         "channels": [
             "Sky Sports Premier League"
@@ -89,7 +71,7 @@
     {
         "title": "Sunderland vs Tottenham Hotspur",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/sunderland-vs-tottenham-hotspur-live-streaming",
         "channels": [
             "Sky Sports Premier League"
