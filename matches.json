@@ -33,24 +33,6 @@
         ]
     },
     {
-        "title": "Mumbai Indians vs RCB",
-        "competition": "IPL T20",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/mumbai-indians-vs-rcb-live-streaming",
-        "channels": [
-            "Sky Sports  Cricket"
-        ]
-    },
-    {
-        "title": "Chelsea vs Manchester City",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/chelsea-vs-manchester-city-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
         "title": "Orlando Magic vs Boston Celtics",
         "competition": "NBA",
         "status": "Upcoming",
