@@ -33,42 +33,6 @@
         ]
     },
     {
-        "title": "ATP 1000: Monte Carlo",
-        "competition": "ATP Tour",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/atp-1000-monte-carlo-live-streaming",
-        "channels": [
-            "Sky Sports Tennis"
-        ]
-    },
-    {
-        "title": "Crystal Palace vs Newcastle United",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/crystal-palace-vs-newcastle-united-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "Nottingham Forest vs Aston Villa",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/nottingham-forest-vs-aston-villa-live-streaming",
-        "channels": [
-            "Sky Sports Premier League"
-        ]
-    },
-    {
-        "title": "Sunderland vs Tottenham Hotspur",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/sunderland-vs-tottenham-hotspur-live-streaming",
-        "channels": [
-            "Sky Sports Premier League"
-        ]
-    },
-    {
         "title": "Mumbai Indians vs RCB",
         "competition": "IPL T20",
         "status": "Live",
@@ -89,7 +53,7 @@
     {
         "title": "Chelsea vs Manchester City",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/chelsea-vs-manchester-city-live-streaming",
         "channels": [
             "Sky Sports Main Event"
