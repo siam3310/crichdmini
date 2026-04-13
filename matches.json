@@ -33,24 +33,6 @@
         ]
     },
     {
-        "title": "Orlando Magic vs Boston Celtics",
-        "competition": "NBA",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/orlando-magic-vs-boston-celtics-live-streaming",
-        "channels": [
-            "Sky Sports  Action"
-        ]
-    },
-    {
-        "title": "TBD vs TBD",
-        "competition": "NBA",
-        "status": "Upcoming",
-        "match_url": "https://vf.crichd.tv/tbd-vs-tbd-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
         "title": "ATP / WTA: Barcelona / Munich / Rouen / Stuttgart",
         "competition": "ATP Tour",
         "status": "Upcoming",
