@@ -1,71 +1,71 @@
 #EXTM3U
 #CREDIT: Siam3310
-#LAST UPDATED: 2026-04-14 18:48:40 +06
+#LAST UPDATED: 2026-04-14 20:29:11 +06
 #TOTAL CHANNELS: 22
 
 #EXTINF:-1,A SPORTS HD
 #EXTVLCOPT:http-referrer=https://executeandship.com/
-https://n5.zohanayaan.com:1686/hls/asportshd.m3u8?md5=QgiDwCoR4Wk7n3lvBN_73Q&expires=1776175714
+https://n5.zohanayaan.com:1686/hls/asportshd.m3u8?md5=FvtA7rYG3ynbX8lLVxxOAw&expires=1776181741
 #EXTINF:-1,ESPN 2
 #EXTVLCOPT:http-referrer=https://executeandship.com/
-https://n5.zohanayaan.com:1686/hls/espn2.m3u8?md5=zYQ2_C-D0ryHkEWE221xUA&expires=1776175715
+https://n5.zohanayaan.com:1686/hls/espn2.m3u8?md5=leGYnzp1yarqBqgIh5Pfog&expires=1776181743
 #EXTINF:-1,LALIGA TV
 #EXTVLCOPT:http-referrer=https://executeandship.com/
-https://n5.zohanayaan.com:1686/hls/laligauk.m3u8?md5=uduIy6TGdfHXKMn3qKE-Sw&expires=1776175717
+https://n5.zohanayaan.com:1686/hls/laligauk.m3u8?md5=F_IqbiPZNsbzq_OjCFsYmg&expires=1776181745
 #EXTINF:-1,PREMIER SPORTS 1
 #EXTVLCOPT:http-referrer=https://executeandship.com/
-https://n5.zohanayaan.com:1686/hls/premieruk.m3u8?md5=eQvkF9kpSdKObauXXHiYPQ&expires=1776175719
+https://n5.zohanayaan.com:1686/hls/premieruk.m3u8?md5=z2U6ymI1HSMcarsj6Lddsg&expires=1776181750
 #EXTINF:-1,PTV SPORTS
 #EXTVLCOPT:http-referrer=https://executeandship.com/
-https://n5.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=eBdea3UD58QE8TE9fJdr_w&expires=1776175717
+https://n5.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=17v3nBHFvycBWmwV46oaww&expires=1776181746
 #EXTINF:-1,SKY SPORTS ACTION
 #EXTVLCOPT:http-referrer=https://executeandship.com/
-https://n5.zohanayaan.com:1686/hls/skysact.m3u8?md5=gKxn0JcAm64gYnsryQtgVA&expires=1776175717
+https://n5.zohanayaan.com:1686/hls/skysact.m3u8?md5=1tlHn0HGaPZmkrijtzDvBg&expires=1776181746
 #EXTINF:-1,SKY SPORTS ARENA
 #EXTVLCOPT:http-referrer=https://executeandship.com/
-https://n5.zohanayaan.com:1686/hls/skysare.m3u8?md5=YDxbelW3e8vHF7vEE2OL4w&expires=1776175717
+https://n5.zohanayaan.com:1686/hls/skysare.m3u8?md5=PvmrGl_X6RB2ZY_4Nv0ydQ&expires=1776181746
 #EXTINF:-1,SKY SPORTS F1
 #EXTVLCOPT:http-referrer=https://executeandship.com/
-https://n5.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=9Q48qklQvGXKvLG1BaCmvA&expires=1776175717
+https://n5.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=z23YqNfCSSTabdDFslM8lA&expires=1776181746
 #EXTINF:-1,SKY SPORTS FOOTBALL
 #EXTVLCOPT:http-referrer=https://executeandship.com/
-https://n5.zohanayaan.com:1686/hls/skysfott.m3u8?md5=RnSNCRF4XraRuHkepqG1aA&expires=1776175717
+https://n5.zohanayaan.com:1686/hls/skysfott.m3u8?md5=GqfMgVYSCY1oFttianIggw&expires=1776181746
 #EXTINF:-1,SKY SPORTS GOLF
 #EXTVLCOPT:http-referrer=https://executeandship.com/
-https://n5.zohanayaan.com:1686/hls/skysgol.m3u8?md5=psyxoCnrKJ90IihjdyBpyw&expires=1776175717
+https://n5.zohanayaan.com:1686/hls/skysgol.m3u8?md5=oSlWWuSNBRnsG4dB7nj7Kw&expires=1776181747
 #EXTINF:-1,SKY SPORTS MAIN EVENT
 #EXTVLCOPT:http-referrer=https://executeandship.com/
-https://n5.zohanayaan.com:1686/hls/skysme.m3u8?md5=8aJYBrfPlshCM3tiK9IbBA&expires=1776175717
+https://n5.zohanayaan.com:1686/hls/skysme.m3u8?md5=pXJBKGVHtjpwwPrB5-r7sw&expires=1776181747
 #EXTINF:-1,SKY SPORTS MIX
 #EXTVLCOPT:http-referrer=https://executeandship.com/
-https://n5.zohanayaan.com:1686/hls/skysmixx.m3u8?md5=FgdGYdglGfPD_dXSBLngiQ&expires=1776175717
+https://n5.zohanayaan.com:1686/hls/skysmixx.m3u8?md5=nNwyq79enoLTEC1CyLZNTQ&expires=1776181747
 #EXTINF:-1,SKY SPORTS NEWS
 #EXTVLCOPT:http-referrer=https://executeandship.com/
-https://n5.zohanayaan.com:1686/hls/skyspnews.m3u8?md5=u6LS1g9YeR1yiBbBqUmSyw&expires=1776175718
+https://n5.zohanayaan.com:1686/hls/skyspnews.m3u8?md5=bXt1lvYJ4BPpN9E0aTV3Zw&expires=1776181747
 #EXTINF:-1,SKY SPORTS PREMIER LEAGUE
 #EXTVLCOPT:http-referrer=https://executeandship.com/
-https://n5.zohanayaan.com:1686/hls/skysprem.m3u8?md5=BS6m3K8jy5PO92L8sia5Gw&expires=1776175718
+https://n5.zohanayaan.com:1686/hls/skysprem.m3u8?md5=nuTzg2VUs-QCX9TTxUmsGQ&expires=1776181747
 #EXTINF:-1,SKY SPORTS TENNIS
 #EXTVLCOPT:http-referrer=https://executeandship.com/
-https://n5.zohanayaan.com:1686/hls/skystennis.m3u8?md5=sbtyHL72xmvD0PAXQqN7kg&expires=1776175718
+https://n5.zohanayaan.com:1686/hls/skystennis.m3u8?md5=mKf40X9YwPKM9fNeyC-JQw&expires=1776181748
 #EXTINF:-1,STAR SPORTS 1 HINDI
 #EXTVLCOPT:http-referrer=https://executeandship.com/
-https://n5.zohanayaan.com:1686/hls/star1in.m3u8?md5=q1AG58OwN8uQc7D10M5LYw&expires=1776175718
+https://n5.zohanayaan.com:1686/hls/star1in.m3u8?md5=XpxtseTlp6gq2Lh3RkOJZA&expires=1776181748
 #EXTINF:-1,TEN SPORTS
 #EXTVLCOPT:http-referrer=https://executeandship.com/
-https://n5.zohanayaan.com:1686/hls/tenspk.m3u8?md5=M1IFyBBmI29wD0AtoGeWYw&expires=1776175719
+https://n5.zohanayaan.com:1686/hls/tenspk.m3u8?md5=HoL5CjCfuZ0UpFPt73l2Cw&expires=1776181749
 #EXTINF:-1,TNT SPORTS 1
 #EXTVLCOPT:http-referrer=https://executeandship.com/
-https://n5.zohanayaan.com:1686/hls/bbtsp1.m3u8?md5=2FV_2Au4Pyn3RoSy8l8djw&expires=1776175719
+https://n5.zohanayaan.com:1686/hls/bbtsp1.m3u8?md5=aRflEGCHE-SlqeombPAkpQ&expires=1776181749
 #EXTINF:-1,TNT SPORTS 2
 #EXTVLCOPT:http-referrer=https://executeandship.com/
-https://n5.zohanayaan.com:1686/hls/bbtsp2.m3u8?md5=2XeyHWXGWiiNAGiGJXKoJw&expires=1776175719
+https://n5.zohanayaan.com:1686/hls/bbtsp2.m3u8?md5=3ph2an7w8qTvAtxY7CrqZw&expires=1776181749
 #EXTINF:-1,TNT SPORTS 4
 #EXTVLCOPT:http-referrer=https://executeandship.com/
-https://n5.zohanayaan.com:1686/hls/bbtespn.m3u8?md5=OfRH22nsojBCFqs2mQHApw&expires=1776175719
+https://n5.zohanayaan.com:1686/hls/bbtespn.m3u8?md5=nkN5GV2HY2tIyf6HnZ9UqA&expires=1776181750
 #EXTINF:-1,WILLOW EXTRA
 #EXTVLCOPT:http-referrer=https://executeandship.com/
-https://n5.zohanayaan.com:1686/hls/willowextra.m3u8?md5=kNDpNoCLY4daq6ECwg_69A&expires=1776175719
+https://n5.zohanayaan.com:1686/hls/willowextra.m3u8?md5=r7XTaDxwsatalbagPOh93A&expires=1776181750
 #EXTINF:-1,WILLOW HD
 #EXTVLCOPT:http-referrer=https://executeandship.com/
-https://n5.zohanayaan.com:1686/hls/willowusa.m3u8?md5=adAtRtm40IcbMqiU9NF6EQ&expires=1776175719
+https://n5.zohanayaan.com:1686/hls/willowusa.m3u8?md5=zjneHWMC1vHUXm6rN5BiaA&expires=1776181750
