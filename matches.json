@@ -42,6 +42,15 @@
         ]
     },
     {
+        "title": "ATP / WTA: Barcelona / Munich / Rouen / Stuttgart",
+        "competition": "ATP Tour",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/atp-wta-barcelona-munich-rouen-stuttgart-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
         "title": "Barrow vs Oldham Athletic",
         "competition": "English Championship",
         "status": "Upcoming",
@@ -114,6 +123,15 @@
         ]
     },
     {
+        "title": "Atletico Madrid vs Barcelona",
+        "competition": "UEFA Champions League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/atletico-madrid-vs-barcelona-live-streaming",
+        "channels": [
+            "TNT Sports 1"
+        ]
+    },
+    {
         "title": "RCB vs Lucknow Super Giants",
         "competition": "IPL T20",
         "status": "Upcoming",
@@ -123,12 +141,57 @@
         ]
     },
     {
+        "title": "AFC Wimbledon vs Stockport County",
+        "competition": "ATP Tour",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/afc-wimbledon-vs-stockport-county-live-streaming",
+        "channels": [
+            "Sky Sports Football"
+        ]
+    },
+    {
+        "title": "Arsenal vs Sporting CP",
+        "competition": "UEFA Champions League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/arsenal-vs-sporting-cp-live-streaming",
+        "channels": [
+            "TNT Sports 1"
+        ]
+    },
+    {
+        "title": "Bayern Munich vs Real Madrid",
+        "competition": "UEFA Champions League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/bayern-munich-vs-real-madrid-live-streaming",
+        "channels": [
+            "TNT Sports 2"
+        ]
+    },
+    {
+        "title": "Liverpool vs PSG",
+        "competition": "UEFA Champions League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/liverpool-vs-psg-live-streaming",
+        "channels": [
+            "Ch16 - Direct Sports SP"
+        ]
+    },
+    {
         "title": "Mumbai Indians vs Punjab Kings",
         "competition": "IPL T20",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/mumbai-indians-vs-punjab-kings-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
+        ]
+    },
+    {
+        "title": "Bromley vs Cambridge United",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/bromley-vs-cambridge-united-live-streaming",
+        "channels": [
+            "Sky Sports Football"
         ]
     },
     {
@@ -246,6 +309,15 @@
         "match_url": "https://vf.crichd.tv/atpwta-1000-madrid-live-streaming",
         "channels": [
             "Sky Sports Tennis"
+        ]
+    },
+    {
+        "title": "Sunrisers Hyderabad vs Delhi Capitals",
+        "competition": "IPL T20",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/sunrisers-hyderabad-vs-delhi-capitals-live-streaming",
+        "channels": [
+            "Sky Sports  Cricket"
         ]
     },
     {
