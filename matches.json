@@ -33,96 +33,6 @@
         ]
     },
     {
-        "title": "ATP / WTA: Barcelona / Munich / Rouen / Stuttgart",
-        "competition": "ATP Tour",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/atp-wta-barcelona-munich-rouen-stuttgart-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "Barrow vs Oldham Athletic",
-        "competition": "English Championship",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/barrow-vs-oldham-athletic-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "Bolton Wanderers vs Stevenage",
-        "competition": "English Championship",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/bolton-wanderers-vs-stevenage-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "Cheltenham Town vs Gillingham",
-        "competition": "English Championship",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/cheltenham-town-vs-gillingham-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "Chesterfield vs Grimsby Town",
-        "competition": "English Championship",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/chesterfield-vs-grimsby-town-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "Colchester United vs Accrington Stanley",
-        "competition": "English Championship",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/colchester-united-vs-accrington-stanley-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "Huddersfield Town vs Cardiff City",
-        "competition": "English Championship",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/huddersfield-town-vs-cardiff-city-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "Portsmouth vs Ipswich Town",
-        "competition": "English Championship",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/portsmouth-vs-ipswich-town-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "Southampton vs Blackburn Rovers",
-        "competition": "English Championship",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/southampton-vs-blackburn-rovers-live-streaming",
-        "channels": [
-            "Sky Sports Football"
-        ]
-    },
-    {
-        "title": "Atletico Madrid vs Barcelona",
-        "competition": "UEFA Champions League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/atletico-madrid-vs-barcelona-live-streaming",
-        "channels": [
-            "TNT Sports 1"
-        ]
-    },
-    {
         "title": "RCB vs Lucknow Super Giants",
         "competition": "IPL T20",
         "status": "Upcoming",
@@ -177,12 +87,30 @@
         ]
     },
     {
+        "title": "Premier League Darts: Rotterdam",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/premier-league-darts-rotterdam-live-streaming",
+        "channels": [
+            "Sky Sports  Action"
+        ]
+    },
+    {
         "title": "Bromley vs Cambridge United",
         "competition": "English Championship",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/bromley-vs-cambridge-united-live-streaming",
         "channels": [
             "Sky Sports Football"
+        ]
+    },
+    {
+        "title": "Hull FC vs St Helens",
+        "competition": "",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/hull-fc-vs-st-helens-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
         ]
     },
     {
@@ -213,6 +141,15 @@
         ]
     },
     {
+        "title": "Blackburn Rovers vs Coventry City",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/blackburn-rovers-vs-coventry-city-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
         "title": "Chiefs vs Hurricanes",
         "competition": "",
         "status": "Upcoming",
@@ -240,6 +177,69 @@
         ]
     },
     {
+        "title": "Barnsley vs Bradford City",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/barnsley-vs-bradford-city-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Barrow vs Walsall",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/barrow-vs-walsall-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Bolton Wanderers vs Huddersfield Town",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/bolton-wanderers-vs-huddersfield-town-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Derby County vs Oxford United",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/derby-county-vs-oxford-united-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Millwall vs Queens Park Rangers",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/millwall-vs-queens-park-rangers-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Portsmouth vs Leicester City",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/portsmouth-vs-leicester-city-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Swindon Town vs Accrington Stanley",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/swindon-town-vs-accrington-stanley-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
         "title": "Western Force vs Crusaders",
         "competition": "",
         "status": "Upcoming",
@@ -255,6 +255,24 @@
         "match_url": "https://vf.crichd.tv/sunrisers-hyderabad-vs-chennai-super-kings-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
+        ]
+    },
+    {
+        "title": "Eintracht Frankfurt vs RB Leipzig",
+        "competition": "Bundesliga",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/eintracht-frankfurt-vs-rb-leipzig-live-streaming",
+        "channels": [
+            "Sky Sports Football"
+        ]
+    },
+    {
+        "title": "Tottenham Hotspur vs Brighton and Hove Albion",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/tottenham-hotspur-vs-brighton-and-hove-albion-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
         ]
     },
     {
