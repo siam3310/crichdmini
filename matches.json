@@ -32,33 +32,6 @@
         ]
     },
     {
-        "title": "Arsenal vs Sporting CP",
-        "competition": "UEFA Champions League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/arsenal-vs-sporting-cp-live-streaming",
-        "channels": [
-            "TNT Sports 1"
-        ]
-    },
-    {
-        "title": "Bayern Munich vs Real Madrid",
-        "competition": "UEFA Champions League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/bayern-munich-vs-real-madrid-live-streaming",
-        "channels": [
-            "TNT Sports 2"
-        ]
-    },
-    {
-        "title": "Liverpool vs PSG",
-        "competition": "UEFA Champions League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/liverpool-vs-psg-live-streaming",
-        "channels": [
-            "Ch16 - Direct Sports SP"
-        ]
-    },
-    {
         "title": "Mumbai Indians vs Punjab Kings",
         "competition": "IPL T20",
         "status": "Upcoming",
