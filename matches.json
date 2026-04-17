@@ -23,33 +23,6 @@
         ]
     },
     {
-        "title": "Blackburn Rovers vs Coventry City",
-        "competition": "English Championship",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/blackburn-rovers-vs-coventry-city-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "Huddersfield Giants vs Leeds Rhinos",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/huddersfield-giants-vs-leeds-rhinos-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "York Knights vs Leigh Leopards",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/york-knights-vs-leigh-leopards-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
         "title": "Chiefs vs Hurricanes",
         "competition": "",
         "status": "Upcoming",
