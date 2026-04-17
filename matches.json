@@ -23,6 +23,16 @@
         ]
     },
     {
+        "title": "Bangladesh vs New Zealand",
+        "competition": "International Cricket",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/bangladesh-vs-new-zealand-live-streaming",
+        "channels": [
+            "TNT Sports 3",
+            "Willow Cricket"
+        ]
+    },
+    {
         "title": "Blues vs Highlanders",
         "competition": "",
         "status": "Upcoming",
@@ -38,6 +48,15 @@
         "match_url": "https://vf.crichd.tv/canberra-raiders-vs-melbourne-storm-live-streaming",
         "channels": [
             "Sky Sports  Action"
+        ]
+    },
+    {
+        "title": "ATP / WTA: Barcelona / Munich / Rouen / Stuttgart",
+        "competition": "ATP Tour",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/atp-wta-barcelona-munich-rouen-stuttgart-live-streaming",
+        "channels": [
+            "Sky Sports Tennis"
         ]
     },
     {
@@ -344,6 +363,24 @@
         "match_url": "https://vf.crichd.tv/crusaders-vs-waratahs-live-streaming",
         "channels": [
             "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Surrey vs Essex",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/surrey-vs-essex-live-streaming",
+        "channels": [
+            "Sky Sports  Cricket"
+        ]
+    },
+    {
+        "title": "RCB vs Gujarat Titans",
+        "competition": "IPL T20",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/rcb-vs-gujarat-titans-live-streaming",
+        "channels": [
+            "Sky Sports  Cricket"
         ]
     },
     {
