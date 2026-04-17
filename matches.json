@@ -33,15 +33,6 @@
         ]
     },
     {
-        "title": "Blues vs Highlanders",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/blues-vs-highlanders-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
         "title": "Canberra Raiders vs Melbourne Storm",
         "competition": "",
         "status": "Live",
@@ -53,7 +44,7 @@
     {
         "title": "ATP / WTA: Barcelona / Munich / Rouen / Stuttgart",
         "competition": "ATP Tour",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/atp-wta-barcelona-munich-rouen-stuttgart-live-streaming",
         "channels": [
             "Sky Sports Tennis"
@@ -62,7 +53,7 @@
     {
         "title": "Waratahs vs Moana Pasifika",
         "competition": "",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/waratahs-vs-moana-pasifika-live-streaming",
         "channels": [
             "Sky Sports Main Event"
