@@ -23,15 +23,6 @@
         ]
     },
     {
-        "title": "Chelsea vs Manchester United",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/chelsea-vs-manchester-united-live-streaming",
-        "channels": [
-            "TNT Sports 1"
-        ]
-    },
-    {
         "title": "Kolkata Knight Riders vs Rajasthan Royals",
         "competition": "IPL T20",
         "status": "Upcoming",
