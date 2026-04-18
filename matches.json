@@ -23,18 +23,9 @@
         ]
     },
     {
-        "title": "Catalans Dragons vs Warrington Wolves",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/catalans-dragons-vs-warrington-wolves-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
         "title": "Chelsea vs Manchester United",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/chelsea-vs-manchester-united-live-streaming",
         "channels": [
             "TNT Sports 1"
