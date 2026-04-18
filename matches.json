@@ -23,6 +23,24 @@
         ]
     },
     {
+        "title": "UFC Fight Night",
+        "competition": "",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/ufc-fight-night-live-streaming",
+        "channels": [
+            "TNT Sports 1"
+        ]
+    },
+    {
+        "title": "Parramatta Eels vs Canterbury Bulldogs",
+        "competition": "",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/parramatta-eels-vs-canterbury-bulldogs-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
         "title": "Kolkata Knight Riders vs Rajasthan Royals",
         "competition": "IPL T20",
         "status": "Upcoming",
@@ -38,6 +56,24 @@
         "match_url": "https://vf.crichd.tv/ipswich-town-vs-middlesbrough-live-streaming",
         "channels": [
             "Sky Sports Football"
+        ]
+    },
+    {
+        "title": "ATP / WTA: Barcelona / Munich / Rouen / Stuttgart",
+        "competition": "ATP Tour",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/atp-wta-barcelona-munich-rouen-stuttgart-live-streaming",
+        "channels": [
+            "Sky Sports Tennis"
+        ]
+    },
+    {
+        "title": "Celtic vs St Mirren",
+        "competition": "Scottish Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/celtic-vs-st-mirren-live-streaming",
+        "channels": [
+            "Viaplay Sports 1"
         ]
     },
     {
@@ -77,6 +113,15 @@
         ]
     },
     {
+        "title": "Wigan Warriors vs Castleford Tigers",
+        "competition": "NBA",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/wigan-warriors-vs-castleford-tigers-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
         "title": "Manchester City vs Arsenal",
         "competition": "English Premier League",
         "status": "Upcoming",
@@ -95,6 +140,33 @@
         ]
     },
     {
+        "title": "NBA Playoffs: Philadelphia 76ers @ Boston Celtics",
+        "competition": "NBA",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/nba-playoffs-philadelphia-76ers-boston-celtics-live-streaming",
+        "channels": [
+            "Sky Sports  Action"
+        ]
+    },
+    {
+        "title": "Juventus vs Bologna",
+        "competition": "Italian Serie A",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/juventus-vs-bologna-live-streaming",
+        "channels": [
+            "TNT Sports 1"
+        ]
+    },
+    {
+        "title": "Paris Saint Germain vs Olympique Lyonnais",
+        "competition": "French Ligue 1",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/paris-saint-germain-vs-olympique-lyonnais-live-streaming",
+        "channels": [
+            "beIN Sport USA"
+        ]
+    },
+    {
         "title": "TBC vs Oklahoma City Thunder",
         "competition": "NBA",
         "status": "Upcoming",
@@ -104,10 +176,28 @@
         ]
     },
     {
+        "title": "Phoenix Suns vs Oklahoma City Thunder",
+        "competition": "NBA",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/phoenix-suns-vs-oklahoma-city-thunder-live-streaming",
+        "channels": [
+            "Sky Sports  Action"
+        ]
+    },
+    {
         "title": "TBC vs Detroit Pistons",
         "competition": "NBA",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/tbc-vs-detroit-pistons-live-streaming",
+        "channels": [
+            "Sky Sports  Action"
+        ]
+    },
+    {
+        "title": "Orlando Magic vs Detroit Pistons",
+        "competition": "NBA",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/orlando-magic-vs-detroit-pistons-live-streaming",
         "channels": [
             "Sky Sports  Action"
         ]
@@ -140,12 +230,39 @@
         ]
     },
     {
+        "title": "Toronto Raptors vs Cleveland Cavaliers",
+        "competition": "NBA",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/toronto-raptors-vs-cleveland-cavaliers-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
         "title": "TBC vs TBC",
         "competition": "NBA",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/tbc-vs-tbc-live-streaming",
         "channels": [
             "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Atlanta Hawks vs New York Knicks",
+        "competition": "NBA",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/atlanta-hawks-vs-new-york-knicks-live-streaming",
+        "channels": [
+            "Sky Sports  Action"
+        ]
+    },
+    {
+        "title": "Minnesota Timberwolves vs Denver Nuggets",
+        "competition": "NBA",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/minnesota-timberwolves-vs-denver-nuggets-live-streaming",
+        "channels": [
+            "Sky Sports  Action"
         ]
     },
     {
@@ -311,6 +428,24 @@
         ]
     },
     {
+        "title": "Philadelphia 76ers vs Boston Celtics",
+        "competition": "NBA",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/philadelphia-76ers-vs-boston-celtics-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Houston Rockets vs LA Lakers",
+        "competition": "NBA",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/houston-rockets-vs-la-lakers-live-streaming",
+        "channels": [
+            "Sky Sports  Action"
+        ]
+    },
+    {
         "title": "Lucknow Super Giants vs Rajasthan Royals",
         "competition": "IPL T20",
         "status": "Upcoming",
@@ -369,6 +504,24 @@
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/blues-vs-reds-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Delhi Capitals vs Punjab Kings",
+        "competition": "IPL T20",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/delhi-capitals-vs-punjab-kings-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Rajasthan Royals vs Sunrisers Hyderabad",
+        "competition": "IPL T20",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/rajasthan-royals-vs-sunrisers-hyderabad-live-streaming",
         "channels": [
             "Sky Sports Main Event"
         ]
