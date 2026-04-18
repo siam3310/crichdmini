@@ -23,18 +23,9 @@
         ]
     },
     {
-        "title": "South Sydney Rabbitohs vs St George-Illawarra Dragons",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/south-sydney-rabbitohs-vs-st-george-illawarra-dragons-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
         "title": "Brumbies vs Fijian Drua",
         "competition": "",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/brumbies-vs-fijian-drua-live-streaming",
         "channels": [
             "Sky Sports  Action"
@@ -43,7 +34,7 @@
     {
         "title": "RCB vs Delhi Capitals",
         "competition": "IPL T20",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/rcb-vs-delhi-capitals-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
