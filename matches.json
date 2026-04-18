@@ -23,10 +23,28 @@
         ]
     },
     {
+        "title": "Alycia Baumgardner v Bo Mi Re Shin: IBF, WBA & WBO Super-Featherweight Titles",
+        "competition": "",
+        "status": "Live",
+        "match_url": "https://vf.crichd.tv/alycia-baumgardner-v-bo-mi-re-shin-ibf-wba-wbo-super-featherweight-titles-live-streaming",
+        "channels": [
+            "Sky Sports  Action"
+        ]
+    },
+    {
         "title": "Chiefs vs Hurricanes",
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/chiefs-vs-hurricanes-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "South Sydney Rabbitohs vs St George-Illawarra Dragons",
+        "competition": "",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/south-sydney-rabbitohs-vs-st-george-illawarra-dragons-live-streaming",
         "channels": [
             "Sky Sports Main Event"
         ]
@@ -47,6 +65,15 @@
         "match_url": "https://vf.crichd.tv/rcb-vs-delhi-capitals-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
+        ]
+    },
+    {
+        "title": "ATP / WTA: Barcelona / Munich / Rouen / Stuttgart",
+        "competition": "ATP Tour",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/atp-wta-barcelona-munich-rouen-stuttgart-live-streaming",
+        "channels": [
+            "Sky Sports Tennis"
         ]
     },
     {
@@ -113,6 +140,25 @@
         ]
     },
     {
+        "title": "Brentford vs Fulham",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/brentford-vs-fulham-live-streaming",
+        "channels": [
+            "TNT Sports 1"
+        ]
+    },
+    {
+        "title": "Dunfermline Athletic vs Falkirk",
+        "competition": "Scottish Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/dunfermline-athletic-vs-falkirk-live-streaming",
+        "channels": [
+            "Viaplay Sports 1",
+            "Channel 1 (BBC ONE)"
+        ]
+    },
+    {
         "title": "Western Force vs Crusaders",
         "competition": "",
         "status": "Upcoming",
@@ -128,6 +174,33 @@
         "match_url": "https://vf.crichd.tv/sunrisers-hyderabad-vs-chennai-super-kings-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
+        ]
+    },
+    {
+        "title": "Wakefield Trinity vs Bradford Bulls",
+        "competition": "NBA",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/wakefield-trinity-vs-bradford-bulls-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Manchester Thunder vs LexisNexis Dragons",
+        "competition": "NBA",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/manchester-thunder-vs-lexisnexis-dragons-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Napoli vs Lazio",
+        "competition": "Italian Serie A",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/napoli-vs-lazio-live-streaming",
+        "channels": [
+            "TNT Sports 1"
         ]
     },
     {
@@ -149,6 +222,24 @@
         ]
     },
     {
+        "title": "Catalans Dragons vs Warrington Wolves",
+        "competition": "",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/catalans-dragons-vs-warrington-wolves-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Chelsea vs Manchester United",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/chelsea-vs-manchester-united-live-streaming",
+        "channels": [
+            "TNT Sports 1"
+        ]
+    },
+    {
         "title": "Kolkata Knight Riders vs Rajasthan Royals",
         "competition": "IPL T20",
         "status": "Upcoming",
@@ -158,12 +249,57 @@
         ]
     },
     {
+        "title": "Ipswich Town vs Middlesbrough",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/ipswich-town-vs-middlesbrough-live-streaming",
+        "channels": [
+            "Sky Sports Football"
+        ]
+    },
+    {
+        "title": "Aston Villa vs Sunderland",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/aston-villa-vs-sunderland-live-streaming",
+        "channels": [
+            "Sky Sports Premier League"
+        ]
+    },
+    {
+        "title": "Everton vs Liverpool",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/everton-vs-liverpool-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Nottingham Forest vs Burnley",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/nottingham-forest-vs-burnley-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
         "title": "Punjab Kings vs Lucknow Super Giants",
         "competition": "IPL T20",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/punjab-kings-vs-lucknow-super-giants-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
+        ]
+    },
+    {
+        "title": "Manchester City vs Arsenal",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/manchester-city-vs-arsenal-live-streaming",
+        "channels": [
+            "Sky Sports Premier League"
         ]
     },
     {
@@ -317,6 +453,24 @@
         "match_url": "https://vf.crichd.tv/chiefs-vs-fijian-drua-live-streaming",
         "channels": [
             "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Hurricanes vs Crusaders",
+        "competition": "",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/hurricanes-vs-crusaders-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Waratahs vs Western Force",
+        "competition": "",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/waratahs-vs-western-force-live-streaming",
+        "channels": [
+            "Sky Sports Mix"
         ]
     }
 ]
