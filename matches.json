@@ -23,24 +23,6 @@
         ]
     },
     {
-        "title": "Juventus vs Bologna",
-        "competition": "Italian Serie A",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/juventus-vs-bologna-live-streaming",
-        "channels": [
-            "TNT Sports 1"
-        ]
-    },
-    {
-        "title": "Paris Saint Germain vs Olympique Lyonnais",
-        "competition": "French Ligue 1",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/paris-saint-germain-vs-olympique-lyonnais-live-streaming",
-        "channels": [
-            "beIN Sport USA"
-        ]
-    },
-    {
         "title": "TBC vs Oklahoma City Thunder",
         "competition": "NBA",
         "status": "Live",
