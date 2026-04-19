@@ -23,24 +23,6 @@
         ]
     },
     {
-        "title": "TBC vs Boston Celtics",
-        "competition": "NBA",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/tbc-vs-boston-celtics-live-streaming",
-        "channels": [
-            "Sky Sports  Action"
-        ]
-    },
-    {
-        "title": "NBA Playoffs: Philadelphia 76ers @ Boston Celtics",
-        "competition": "NBA",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/nba-playoffs-philadelphia-76ers-boston-celtics-live-streaming",
-        "channels": [
-            "Sky Sports  Action"
-        ]
-    },
-    {
         "title": "Juventus vs Bologna",
         "competition": "Italian Serie A",
         "status": "Live",
@@ -61,7 +43,7 @@
     {
         "title": "TBC vs Oklahoma City Thunder",
         "competition": "NBA",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/tbc-vs-oklahoma-city-thunder-live-streaming",
         "channels": [
             "Sky Sports  Action"
@@ -70,7 +52,7 @@
     {
         "title": "Phoenix Suns vs Oklahoma City Thunder",
         "competition": "NBA",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/phoenix-suns-vs-oklahoma-city-thunder-live-streaming",
         "channels": [
             "Sky Sports  Action"
