@@ -23,24 +23,6 @@
         ]
     },
     {
-        "title": "Kolkata Knight Riders vs Rajasthan Royals",
-        "competition": "IPL T20",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/kolkata-knight-riders-vs-rajasthan-royals-live-streaming",
-        "channels": [
-            "Sky Sports  Cricket"
-        ]
-    },
-    {
-        "title": "ATP / WTA: Barcelona / Munich / Rouen / Stuttgart",
-        "competition": "ATP Tour",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/atp-wta-barcelona-munich-rouen-stuttgart-live-streaming",
-        "channels": [
-            "Sky Sports Tennis"
-        ]
-    },
-    {
         "title": "Celtic vs St Mirren",
         "competition": "Scottish Premier League",
         "status": "Live",
@@ -79,7 +61,7 @@
     {
         "title": "Punjab Kings vs Lucknow Super Giants",
         "competition": "IPL T20",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/punjab-kings-vs-lucknow-super-giants-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
@@ -88,7 +70,7 @@
     {
         "title": "Wigan Warriors vs Castleford Tigers",
         "competition": "NBA",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/wigan-warriors-vs-castleford-tigers-live-streaming",
         "channels": [
             "Sky Sports Main Event"
