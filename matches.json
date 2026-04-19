@@ -32,15 +32,6 @@
         ]
     },
     {
-        "title": "Wigan Warriors vs Castleford Tigers",
-        "competition": "NBA",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/wigan-warriors-vs-castleford-tigers-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
         "title": "Manchester City vs Arsenal",
         "competition": "English Premier League",
         "status": "Live",
@@ -52,7 +43,7 @@
     {
         "title": "TBC vs Boston Celtics",
         "competition": "NBA",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/tbc-vs-boston-celtics-live-streaming",
         "channels": [
             "Sky Sports  Action"
@@ -61,7 +52,7 @@
     {
         "title": "NBA Playoffs: Philadelphia 76ers @ Boston Celtics",
         "competition": "NBA",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/nba-playoffs-philadelphia-76ers-boston-celtics-live-streaming",
         "channels": [
             "Sky Sports  Action"
