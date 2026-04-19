@@ -23,27 +23,9 @@
         ]
     },
     {
-        "title": "TBC vs Oklahoma City Thunder",
-        "competition": "NBA",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/tbc-vs-oklahoma-city-thunder-live-streaming",
-        "channels": [
-            "Sky Sports  Action"
-        ]
-    },
-    {
-        "title": "Phoenix Suns vs Oklahoma City Thunder",
-        "competition": "NBA",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/phoenix-suns-vs-oklahoma-city-thunder-live-streaming",
-        "channels": [
-            "Sky Sports  Action"
-        ]
-    },
-    {
         "title": "TBC vs Detroit Pistons",
         "competition": "NBA",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/tbc-vs-detroit-pistons-live-streaming",
         "channels": [
             "Sky Sports  Action"
@@ -52,7 +34,7 @@
     {
         "title": "Orlando Magic vs Detroit Pistons",
         "competition": "NBA",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/orlando-magic-vs-detroit-pistons-live-streaming",
         "channels": [
             "Sky Sports  Action"
