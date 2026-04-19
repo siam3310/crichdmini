@@ -32,15 +32,6 @@
         ]
     },
     {
-        "title": "Ipswich Town vs Middlesbrough",
-        "competition": "English Championship",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/ipswich-town-vs-middlesbrough-live-streaming",
-        "channels": [
-            "Sky Sports Football"
-        ]
-    },
-    {
         "title": "ATP / WTA: Barcelona / Munich / Rouen / Stuttgart",
         "competition": "ATP Tour",
         "status": "Live",
@@ -52,7 +43,7 @@
     {
         "title": "Celtic vs St Mirren",
         "competition": "Scottish Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/celtic-vs-st-mirren-live-streaming",
         "channels": [
             "Viaplay Sports 1"
@@ -61,7 +52,7 @@
     {
         "title": "Aston Villa vs Sunderland",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/aston-villa-vs-sunderland-live-streaming",
         "channels": [
             "Sky Sports Premier League"
@@ -70,7 +61,7 @@
     {
         "title": "Everton vs Liverpool",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/everton-vs-liverpool-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -79,7 +70,7 @@
     {
         "title": "Nottingham Forest vs Burnley",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/nottingham-forest-vs-burnley-live-streaming",
         "channels": [
             "Sky Sports Main Event"
