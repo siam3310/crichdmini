@@ -23,42 +23,6 @@
         ]
     },
     {
-        "title": "Celtic vs St Mirren",
-        "competition": "Scottish Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/celtic-vs-st-mirren-live-streaming",
-        "channels": [
-            "Viaplay Sports 1"
-        ]
-    },
-    {
-        "title": "Aston Villa vs Sunderland",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/aston-villa-vs-sunderland-live-streaming",
-        "channels": [
-            "Sky Sports Premier League"
-        ]
-    },
-    {
-        "title": "Everton vs Liverpool",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/everton-vs-liverpool-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "Nottingham Forest vs Burnley",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/nottingham-forest-vs-burnley-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
         "title": "Punjab Kings vs Lucknow Super Giants",
         "competition": "IPL T20",
         "status": "Live",
@@ -79,7 +43,7 @@
     {
         "title": "Manchester City vs Arsenal",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/manchester-city-vs-arsenal-live-streaming",
         "channels": [
             "Sky Sports Premier League"
