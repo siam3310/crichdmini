@@ -23,27 +23,9 @@
         ]
     },
     {
-        "title": "TBC vs Detroit Pistons",
-        "competition": "NBA",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/tbc-vs-detroit-pistons-live-streaming",
-        "channels": [
-            "Sky Sports  Action"
-        ]
-    },
-    {
-        "title": "Orlando Magic vs Detroit Pistons",
-        "competition": "NBA",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/orlando-magic-vs-detroit-pistons-live-streaming",
-        "channels": [
-            "Sky Sports  Action"
-        ]
-    },
-    {
         "title": "Portland Trail Blazers vs San Antonio Spurs",
         "competition": "NBA",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/portland-trail-blazers-vs-san-antonio-spurs-live-streaming",
         "channels": [
             "Sky Sports  Action"
@@ -378,6 +360,24 @@
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/chiefs-vs-fijian-drua-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Gujarat Titans vs Chennai Super Kings",
+        "competition": "IPL T20",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/gujarat-titans-vs-chennai-super-kings-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Lucknow Super Giants vs Kolkata Knight Riders",
+        "competition": "IPL T20",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/lucknow-super-giants-vs-kolkata-knight-riders-live-streaming",
         "channels": [
             "Sky Sports Main Event"
         ]
