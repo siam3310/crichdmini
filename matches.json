@@ -23,18 +23,9 @@
         ]
     },
     {
-        "title": "Sunrisers Hyderabad vs Delhi Capitals",
-        "competition": "IPL T20",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/sunrisers-hyderabad-vs-delhi-capitals-live-streaming",
-        "channels": [
-            "Sky Sports  Cricket"
-        ]
-    },
-    {
         "title": "Athletic Bilbao vs Osasuna",
         "competition": "Spanish La Liga",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/athletic-bilbao-vs-osasuna-live-streaming",
         "channels": [
             "Viaplay Sports 1"
@@ -43,7 +34,7 @@
     {
         "title": "Mallorca vs Valencia",
         "competition": "Spanish La Liga",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/mallorca-vs-valencia-live-streaming",
         "channels": [
             "LaLiga Tv"
