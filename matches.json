@@ -23,42 +23,6 @@
         ]
     },
     {
-        "title": "Toronto Raptors vs Cleveland Cavaliers",
-        "competition": "NBA",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/toronto-raptors-vs-cleveland-cavaliers-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "TBC vs TBC",
-        "competition": "NBA",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/tbc-vs-tbc-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "Atlanta Hawks vs New York Knicks",
-        "competition": "NBA",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/atlanta-hawks-vs-new-york-knicks-live-streaming",
-        "channels": [
-            "Sky Sports  Action"
-        ]
-    },
-    {
-        "title": "Minnesota Timberwolves vs Denver Nuggets",
-        "competition": "NBA",
-        "status": "Upcoming",
-        "match_url": "https://vf.crichd.tv/minnesota-timberwolves-vs-denver-nuggets-live-streaming",
-        "channels": [
-            "Sky Sports  Action"
-        ]
-    },
-    {
         "title": "ATP/WTA 1000: Madrid",
         "competition": "ATP Tour",
         "status": "Upcoming",
