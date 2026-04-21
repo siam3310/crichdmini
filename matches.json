@@ -23,53 +23,49 @@
         ]
     },
     {
-        "title": "Athletic Bilbao vs Osasuna",
-        "competition": "Spanish La Liga",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/athletic-bilbao-vs-osasuna-live-streaming",
-        "channels": []
-    },
-    {
-        "title": "Mallorca vs Valencia",
-        "competition": "Spanish La Liga",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/mallorca-vs-valencia-live-streaming",
-        "channels": []
-    },
-    {
         "title": "Bradford City vs Plymouth Argyle",
         "competition": "English Championship",
         "status": "Live",
         "match_url": "https://vf.crichd.tv/bradford-city-vs-plymouth-argyle-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports Main Event"
+        ]
     },
     {
         "title": "Cambridge United vs Grimsby Town",
         "competition": "English Championship",
         "status": "Live",
         "match_url": "https://vf.crichd.tv/cambridge-united-vs-grimsby-town-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports Main Event"
+        ]
     },
     {
         "title": "Cheltenham Town vs Tranmere Rovers",
         "competition": "English Championship",
         "status": "Live",
         "match_url": "https://vf.crichd.tv/cheltenham-town-vs-tranmere-rovers-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports Main Event"
+        ]
     },
     {
         "title": "Coventry City vs Portsmouth",
         "competition": "English Championship",
         "status": "Live",
         "match_url": "https://vf.crichd.tv/coventry-city-vs-portsmouth-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports Main Event"
+        ]
     },
     {
         "title": "Doncaster Rovers vs Lincoln City",
         "competition": "English Championship",
         "status": "Live",
         "match_url": "https://vf.crichd.tv/doncaster-rovers-vs-lincoln-city-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports Main Event"
+        ]
     },
     {
         "title": "Leicester City vs Hull City",
@@ -164,7 +160,7 @@
     {
         "title": "Inter Milan vs Como",
         "competition": "Italian Serie A",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/inter-milan-vs-como-live-streaming",
         "channels": [
             "Viaplay Sports 2 (CH2)"
@@ -173,7 +169,7 @@
     {
         "title": "Brighton and Hove Albion vs Chelsea",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/brighton-and-hove-albion-vs-chelsea-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -182,7 +178,7 @@
     {
         "title": "Girona vs Real Betis",
         "competition": "Spanish La Liga",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/girona-vs-real-betis-live-streaming",
         "channels": [
             "LaLiga Tv"
@@ -191,7 +187,7 @@
     {
         "title": "Real Madrid vs Deportivo Alaves",
         "competition": "Spanish La Liga",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/real-madrid-vs-deportivo-alaves-live-streaming",
         "channels": [
             "Viaplay Sports 1"
