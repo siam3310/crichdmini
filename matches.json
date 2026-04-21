@@ -23,18 +23,9 @@
         ]
     },
     {
-        "title": "ATP/WTA 1000: Madrid",
-        "competition": "ATP Tour",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/atpwta-1000-madrid-live-streaming",
-        "channels": [
-            "Sky Sports Tennis"
-        ]
-    },
-    {
         "title": "Sunrisers Hyderabad vs Delhi Capitals",
         "competition": "IPL T20",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/sunrisers-hyderabad-vs-delhi-capitals-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
