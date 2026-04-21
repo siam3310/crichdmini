@@ -34,7 +34,7 @@
     {
         "title": "TBC vs TBC",
         "competition": "NBA",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/tbc-vs-tbc-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -43,7 +43,7 @@
     {
         "title": "Atlanta Hawks vs New York Knicks",
         "competition": "NBA",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/atlanta-hawks-vs-new-york-knicks-live-streaming",
         "channels": [
             "Sky Sports  Action"
@@ -74,6 +74,24 @@
         "match_url": "https://vf.crichd.tv/sunrisers-hyderabad-vs-delhi-capitals-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
+        ]
+    },
+    {
+        "title": "Athletic Bilbao vs Osasuna",
+        "competition": "Spanish La Liga",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/athletic-bilbao-vs-osasuna-live-streaming",
+        "channels": [
+            "Viaplay Sports 1"
+        ]
+    },
+    {
+        "title": "Mallorca vs Valencia",
+        "competition": "Spanish La Liga",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/mallorca-vs-valencia-live-streaming",
+        "channels": [
+            "LaLiga Tv"
         ]
     },
     {
@@ -212,12 +230,39 @@
         ]
     },
     {
+        "title": "Inter Milan vs Como",
+        "competition": "Italian Serie A",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/inter-milan-vs-como-live-streaming",
+        "channels": [
+            "Viaplay Sports 2 (CH2)"
+        ]
+    },
+    {
         "title": "Brighton and Hove Albion vs Chelsea",
         "competition": "English Premier League",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/brighton-and-hove-albion-vs-chelsea-live-streaming",
         "channels": [
             "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Girona vs Real Betis",
+        "competition": "Spanish La Liga",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/girona-vs-real-betis-live-streaming",
+        "channels": [
+            "LaLiga Tv"
+        ]
+    },
+    {
+        "title": "Real Madrid vs Deportivo Alaves",
+        "competition": "Spanish La Liga",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/real-madrid-vs-deportivo-alaves-live-streaming",
+        "channels": [
+            "Viaplay Sports 1"
         ]
     },
     {
