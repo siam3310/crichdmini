@@ -23,27 +23,9 @@
         ]
     },
     {
-        "title": "Girona vs Real Betis",
-        "competition": "Spanish La Liga",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/girona-vs-real-betis-live-streaming",
-        "channels": [
-            "LaLiga Tv"
-        ]
-    },
-    {
-        "title": "Real Madrid vs Deportivo Alaves",
-        "competition": "Spanish La Liga",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/real-madrid-vs-deportivo-alaves-live-streaming",
-        "channels": [
-            "Viaplay Sports 1"
-        ]
-    },
-    {
         "title": "Philadelphia 76ers vs Boston Celtics",
         "competition": "NBA",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/philadelphia-76ers-vs-boston-celtics-live-streaming",
         "channels": [
             "Sky Sports Main Event"
