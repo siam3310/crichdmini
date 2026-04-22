@@ -23,33 +23,6 @@
         ]
     },
     {
-        "title": "Bournemouth vs Leeds United",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/bournemouth-vs-leeds-united-live-streaming",
-        "channels": [
-            "Sky Sports Premier League"
-        ]
-    },
-    {
-        "title": "Burnley vs Manchester City",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/burnley-vs-manchester-city-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "Barcelona vs Celta Vigo",
-        "competition": "Spanish La Liga",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/barcelona-vs-celta-vigo-live-streaming",
-        "channels": [
-            "Viaplay Sports 1"
-        ]
-    },
-    {
         "title": "Mumbai Indians vs Chennai Super Kings",
         "competition": "IPL T20",
         "status": "Upcoming",
