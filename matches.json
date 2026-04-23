@@ -32,24 +32,6 @@
         ]
     },
     {
-        "title": "Premier League Darts: Liverpool",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/premier-league-darts-liverpool-live-streaming",
-        "channels": [
-            "Sky Sports  Action"
-        ]
-    },
-    {
-        "title": "Rayo Vallecano vs Espanyol",
-        "competition": "Spanish La Liga",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/rayo-vallecano-vs-espanyol-live-streaming",
-        "channels": [
-            "LaLiga Tv"
-        ]
-    },
-    {
         "title": "Salford City vs Bromley",
         "competition": "English Championship",
         "status": "Live",
