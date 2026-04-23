@@ -32,6 +32,15 @@
         ]
     },
     {
+        "title": "Levante vs Sevilla",
+        "competition": "Spanish La Liga",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/levante-vs-sevilla-live-streaming",
+        "channels": [
+            "Viaplay Sports 1"
+        ]
+    },
+    {
         "title": "ATP/WTA 1000: Madrid",
         "competition": "ATP Tour",
         "status": "Upcoming",
@@ -41,12 +50,57 @@
         ]
     },
     {
+        "title": "Premier League Darts: Liverpool",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/premier-league-darts-liverpool-live-streaming",
+        "channels": [
+            "Sky Sports  Action"
+        ]
+    },
+    {
+        "title": "Rayo Vallecano vs Espanyol",
+        "competition": "Spanish La Liga",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/rayo-vallecano-vs-espanyol-live-streaming",
+        "channels": [
+            "LaLiga Tv"
+        ]
+    },
+    {
         "title": "Salford City vs Bromley",
         "competition": "English Championship",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/salford-city-vs-bromley-live-streaming",
         "channels": [
             "Sky Sports Football"
+        ]
+    },
+    {
+        "title": "Leigh Leopards vs Huddersfield Giants",
+        "competition": "",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/leigh-leopards-vs-huddersfield-giants-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "York Knights vs Toulouse Olympique",
+        "competition": "",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/york-knights-vs-toulouse-olympique-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Real Oviedo vs Villarreal",
+        "competition": "Spanish La Liga",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/real-oviedo-vs-villarreal-live-streaming",
+        "channels": [
+            "Viaplay Sports 1"
         ]
     },
     {
@@ -122,12 +176,111 @@
         ]
     },
     {
+        "title": "Brighton and Hove Albion Women vs Manchester City Women",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/brighton-and-hove-albion-women-vs-manchester-city-women-live-streaming",
+        "channels": [
+            "Sky Sports Football"
+        ]
+    },
+    {
+        "title": "Charlton Athletic vs Hull City",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/charlton-athletic-vs-hull-city-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Doncaster Rovers vs Stevenage",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/doncaster-rovers-vs-stevenage-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Grimsby Town vs Swindon Town",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/grimsby-town-vs-swindon-town-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Middlesbrough vs Watford",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/middlesbrough-vs-watford-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Milton Keynes Dons vs Tranmere Rovers",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/milton-keynes-dons-vs-tranmere-rovers-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Stockport County vs Peterborough United",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/stockport-county-vs-peterborough-united-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "West Bromwich Albion vs Ipswich Town",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/west-bromwich-albion-vs-ipswich-town-live-streaming",
+        "channels": [
+            "Sky Sports Football"
+        ]
+    },
+    {
         "title": "Rajasthan Royals vs Sunrisers Hyderabad",
         "competition": "IPL T20",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/rajasthan-royals-vs-sunrisers-hyderabad-live-streaming",
         "channels": [
             "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Arsenal vs Newcastle United",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/arsenal-vs-newcastle-united-live-streaming",
+        "channels": [
+            "Sky Sports Premier League"
+        ]
+    },
+    {
+        "title": "Celtic vs Falkirk",
+        "competition": "Scottish Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/celtic-vs-falkirk-live-streaming",
+        "channels": [
+            "Sky Sports Football"
+        ]
+    },
+    {
+        "title": "Hamburg vs TSG Hoffenheim",
+        "competition": "Bundesliga",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/hamburg-vs-tsg-hoffenheim-live-streaming",
+        "channels": [
+            "Sky Sports Mix"
         ]
     },
     {
@@ -164,6 +317,15 @@
         "match_url": "https://vf.crichd.tv/lucknow-super-giants-vs-kolkata-knight-riders-live-streaming",
         "channels": [
             "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Dehli Capitals vs RCB",
+        "competition": "IPL T20",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/dehli-capitals-vs-rcb-live-streaming",
+        "channels": [
+            "Sky Sports  Cricket"
         ]
     },
     {
