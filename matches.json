@@ -23,15 +23,6 @@
         ]
     },
     {
-        "title": "Levante vs Sevilla",
-        "competition": "Spanish La Liga",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/levante-vs-sevilla-live-streaming",
-        "channels": [
-            "Viaplay Sports 1"
-        ]
-    },
-    {
         "title": "ATP/WTA 1000: Madrid",
         "competition": "ATP Tour",
         "status": "Live",
@@ -61,7 +52,7 @@
     {
         "title": "Salford City vs Bromley",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/salford-city-vs-bromley-live-streaming",
         "channels": [
             "Sky Sports Football"
@@ -70,7 +61,7 @@
     {
         "title": "Leigh Leopards vs Huddersfield Giants",
         "competition": "",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/leigh-leopards-vs-huddersfield-giants-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -79,7 +70,7 @@
     {
         "title": "York Knights vs Toulouse Olympique",
         "competition": "",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/york-knights-vs-toulouse-olympique-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -88,7 +79,7 @@
     {
         "title": "Real Oviedo vs Villarreal",
         "competition": "Spanish La Liga",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/real-oviedo-vs-villarreal-live-streaming",
         "channels": [
             "Viaplay Sports 1"
