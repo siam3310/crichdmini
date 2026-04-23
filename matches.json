@@ -23,15 +23,6 @@
         ]
     },
     {
-        "title": "Mumbai Indians vs Chennai Super Kings",
-        "competition": "IPL T20",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/mumbai-indians-vs-chennai-super-kings-live-streaming",
-        "channels": [
-            "Sky Sports  Cricket"
-        ]
-    },
-    {
         "title": "Levante vs Sevilla",
         "competition": "Spanish La Liga",
         "status": "Live",
@@ -43,7 +34,7 @@
     {
         "title": "ATP/WTA 1000: Madrid",
         "competition": "ATP Tour",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/atpwta-1000-madrid-live-streaming",
         "channels": [
             "Sky Sports Tennis"
@@ -52,7 +43,7 @@
     {
         "title": "Premier League Darts: Liverpool",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/premier-league-darts-liverpool-live-streaming",
         "channels": [
             "Sky Sports  Action"
@@ -61,7 +52,7 @@
     {
         "title": "Rayo Vallecano vs Espanyol",
         "competition": "Spanish La Liga",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/rayo-vallecano-vs-espanyol-live-streaming",
         "channels": [
             "LaLiga Tv"
