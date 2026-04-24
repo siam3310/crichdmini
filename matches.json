@@ -32,6 +32,15 @@
         ]
     },
     {
+        "title": "Brisbane Broncos vs Canterbury Bulldogs",
+        "competition": "",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/brisbane-broncos-vs-canterbury-bulldogs-live-streaming",
+        "channels": [
+            "Sky Sports  Action"
+        ]
+    },
+    {
         "title": "Surrey vs Essex",
         "competition": "English Championship",
         "status": "Upcoming",
@@ -50,6 +59,15 @@
         ]
     },
     {
+        "title": "ATP/WTA 1000: Madrid",
+        "competition": "ATP Tour",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/atpwta-1000-madrid-live-streaming",
+        "channels": [
+            "Sky Sports Tennis"
+        ]
+    },
+    {
         "title": "Leicester City vs Millwall",
         "competition": "English Championship",
         "status": "Upcoming",
@@ -63,6 +81,33 @@
         "competition": "English Premier League",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/sunderland-vs-nottingham-forest-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Castleford Tigers vs Hull FC",
+        "competition": "",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/castleford-tigers-vs-hull-fc-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Leeds Rhinos vs Catalans Dragons",
+        "competition": "",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/leeds-rhinos-vs-catalans-dragons-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Warrington Wolves vs Wigan Warriors",
+        "competition": "NBA",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/warrington-wolves-vs-wigan-warriors-live-streaming",
         "channels": [
             "Sky Sports Main Event"
         ]
