@@ -34,7 +34,7 @@
     {
         "title": "Leicester City vs Millwall",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/leicester-city-vs-millwall-live-streaming",
         "channels": [
             "Sky Sports Football"
@@ -43,7 +43,7 @@
     {
         "title": "Sunderland vs Nottingham Forest",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/sunderland-vs-nottingham-forest-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -52,7 +52,7 @@
     {
         "title": "Castleford Tigers vs Hull FC",
         "competition": "",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/castleford-tigers-vs-hull-fc-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -61,7 +61,7 @@
     {
         "title": "Leeds Rhinos vs Catalans Dragons",
         "competition": "",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/leeds-rhinos-vs-catalans-dragons-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -70,7 +70,7 @@
     {
         "title": "Warrington Wolves vs Wigan Warriors",
         "competition": "NBA",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/warrington-wolves-vs-wigan-warriors-live-streaming",
         "channels": [
             "Sky Sports Main Event"
