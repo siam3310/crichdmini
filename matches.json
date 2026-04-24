@@ -23,51 +23,6 @@
         ]
     },
     {
-        "title": "ATP/WTA 1000: Madrid",
-        "competition": "ATP Tour",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/atpwta-1000-madrid-live-streaming",
-        "channels": [
-            "Sky Sports Tennis"
-        ]
-    },
-    {
-        "title": "Leicester City vs Millwall",
-        "competition": "English Championship",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/leicester-city-vs-millwall-live-streaming",
-        "channels": [
-            "Sky Sports Football"
-        ]
-    },
-    {
-        "title": "Sunderland vs Nottingham Forest",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/sunderland-vs-nottingham-forest-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "Castleford Tigers vs Hull FC",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/castleford-tigers-vs-hull-fc-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "Leeds Rhinos vs Catalans Dragons",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/leeds-rhinos-vs-catalans-dragons-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
         "title": "Warrington Wolves vs Wigan Warriors",
         "competition": "NBA",
         "status": "Live",
