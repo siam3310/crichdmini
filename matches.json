@@ -23,24 +23,6 @@
         ]
     },
     {
-        "title": "Brisbane Broncos vs Canterbury Bulldogs",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/brisbane-broncos-vs-canterbury-bulldogs-live-streaming",
-        "channels": [
-            "Sky Sports  Action"
-        ]
-    },
-    {
-        "title": "Surrey vs Essex",
-        "competition": "English Championship",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/surrey-vs-essex-live-streaming",
-        "channels": [
-            "Sky Sports  Cricket"
-        ]
-    },
-    {
         "title": "RCB vs Gujarat Titans",
         "competition": "IPL T20",
         "status": "Upcoming",
