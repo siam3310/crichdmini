@@ -41,24 +41,6 @@
         ]
     },
     {
-        "title": "Bradford Bulls vs Hull K R",
-        "competition": "NBA",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/bradford-bulls-vs-hull-k-r-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "Getafe vs Barcelona",
-        "competition": "Spanish La Liga",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/getafe-vs-barcelona-live-streaming",
-        "channels": [
-            "LaLiga Tv"
-        ]
-    },
-    {
         "title": "London Mavericks vs Manchester Thunder",
         "competition": "NBA",
         "status": "Live",
@@ -70,7 +52,7 @@
     {
         "title": "Manchester City vs Southampton",
         "competition": "English Fa Cup",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/manchester-city-vs-southampton-live-streaming",
         "channels": [
             "TNT Sports 1",
@@ -80,7 +62,7 @@
     {
         "title": "Arsenal vs Newcastle United",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/arsenal-vs-newcastle-united-live-streaming",
         "channels": [
             "Sky Sports Premier League"
@@ -89,7 +71,7 @@
     {
         "title": "Celtic vs Falkirk",
         "competition": "Scottish Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/celtic-vs-falkirk-live-streaming",
         "channels": [
             "Sky Sports Football"
@@ -98,7 +80,7 @@
     {
         "title": "Hamburg vs TSG Hoffenheim",
         "competition": "Bundesliga",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/hamburg-vs-tsg-hoffenheim-live-streaming",
         "channels": [
             "Sky Sports Mix"
@@ -107,7 +89,7 @@
     {
         "title": "St Helens vs Wakefield Trinity",
         "competition": "",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/st-helens-vs-wakefield-trinity-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -116,7 +98,7 @@
     {
         "title": "Valencia vs Girona",
         "competition": "Spanish La Liga",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/valencia-vs-girona-live-streaming",
         "channels": [
             "LaLiga Tv"
