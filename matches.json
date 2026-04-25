@@ -32,18 +32,9 @@
         ]
     },
     {
-        "title": "Deportivo Alaves vs Mallorca",
-        "competition": "Spanish La Liga",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/deportivo-alaves-vs-mallorca-live-streaming",
-        "channels": [
-            "Viaplay Sports 1"
-        ]
-    },
-    {
         "title": "Rajasthan Royals vs Sunrisers Hyderabad",
         "competition": "IPL T20",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/rajasthan-royals-vs-sunrisers-hyderabad-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -52,7 +43,7 @@
     {
         "title": "Bradford Bulls vs Hull K R",
         "competition": "NBA",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/bradford-bulls-vs-hull-k-r-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -61,7 +52,7 @@
     {
         "title": "Getafe vs Barcelona",
         "competition": "Spanish La Liga",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/getafe-vs-barcelona-live-streaming",
         "channels": [
             "LaLiga Tv"
