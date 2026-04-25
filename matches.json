@@ -32,61 +32,6 @@
         ]
     },
     {
-        "title": "Manchester City vs Southampton",
-        "competition": "English Fa Cup",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/manchester-city-vs-southampton-live-streaming",
-        "channels": [
-            "TNT Sports 1",
-            "Channel 1 (BBC ONE)"
-        ]
-    },
-    {
-        "title": "Arsenal vs Newcastle United",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/arsenal-vs-newcastle-united-live-streaming",
-        "channels": [
-            "Sky Sports Premier League"
-        ]
-    },
-    {
-        "title": "Celtic vs Falkirk",
-        "competition": "Scottish Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/celtic-vs-falkirk-live-streaming",
-        "channels": [
-            "Sky Sports Football"
-        ]
-    },
-    {
-        "title": "Hamburg vs TSG Hoffenheim",
-        "competition": "Bundesliga",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/hamburg-vs-tsg-hoffenheim-live-streaming",
-        "channels": [
-            "Sky Sports Mix"
-        ]
-    },
-    {
-        "title": "St Helens vs Wakefield Trinity",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/st-helens-vs-wakefield-trinity-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "Valencia vs Girona",
-        "competition": "Spanish La Liga",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/valencia-vs-girona-live-streaming",
-        "channels": [
-            "LaLiga Tv"
-        ]
-    },
-    {
         "title": "Birmingham Panthers vs London Pulse",
         "competition": "",
         "status": "Live",
@@ -141,12 +86,75 @@
         ]
     },
     {
+        "title": "Surrey vs Essex",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/surrey-vs-essex-live-streaming",
+        "channels": [
+            "Sky Sports  Cricket"
+        ]
+    },
+    {
+        "title": "Coventry City vs Wrexham",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/coventry-city-vs-wrexham-live-streaming",
+        "channels": [
+            "Sky Sports Football"
+        ]
+    },
+    {
+        "title": "Everton Women vs Chelsea Women",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/everton-women-vs-chelsea-women-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "London City Lionesses vs Leicester City Women",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/london-city-lionesses-vs-leicester-city-women-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Tottenham Hotspur Women vs Manchester United Women",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/tottenham-hotspur-women-vs-manchester-united-women-live-streaming",
+        "channels": [
+            "Sky Sports Football"
+        ]
+    },
+    {
+        "title": "Liverpool Women vs West Ham United Women",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/liverpool-women-vs-west-ham-united-women-live-streaming",
+        "channels": [
+            "Sky Sports Football"
+        ]
+    },
+    {
         "title": "Lucknow Super Giants vs Kolkata Knight Riders",
         "competition": "IPL T20",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/lucknow-super-giants-vs-kolkata-knight-riders-live-streaming",
         "channels": [
             "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Hibernian vs Hearts",
+        "competition": "Scottish Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/hibernian-vs-hearts-live-streaming",
+        "channels": [
+            "Sky Sports Football"
         ]
     },
     {
@@ -159,12 +167,48 @@
         ]
     },
     {
+        "title": "Manchester United vs Brentford",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/manchester-united-vs-brentford-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
         "title": "Punjab Kings vs Rajastan Royals",
         "competition": "IPL T20",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/punjab-kings-vs-rajastan-royals-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
+        ]
+    },
+    {
+        "title": "Northampton Town vs Barnsley",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/northampton-town-vs-barnsley-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Peterborough United vs Mansfield Town",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/peterborough-united-vs-mansfield-town-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Southampton vs Ipswich Town",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/southampton-vs-ipswich-town-live-streaming",
+        "channels": [
+            "Sky Sports Football"
         ]
     },
     {
