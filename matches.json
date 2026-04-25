@@ -41,24 +41,6 @@
         ]
     },
     {
-        "title": "Surrey vs Essex",
-        "competition": "English Championship",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/surrey-vs-essex-live-streaming",
-        "channels": [
-            "Sky Sports  Cricket"
-        ]
-    },
-    {
-        "title": "Melbourne Storm vs South Sydney Rabbitohs",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/melbourne-storm-vs-south-sydney-rabbitohs-live-streaming",
-        "channels": [
-            "Sky Sports  Action"
-        ]
-    },
-    {
         "title": "Brighton and Hove Albion Women vs Manchester City Women",
         "competition": "English Premier League",
         "status": "Live",
@@ -70,7 +52,7 @@
     {
         "title": "Charlton Athletic vs Hull City",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/charlton-athletic-vs-hull-city-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -79,7 +61,7 @@
     {
         "title": "Doncaster Rovers vs Stevenage",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/doncaster-rovers-vs-stevenage-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -88,7 +70,7 @@
     {
         "title": "Grimsby Town vs Swindon Town",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/grimsby-town-vs-swindon-town-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -97,7 +79,7 @@
     {
         "title": "Middlesbrough vs Watford",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/middlesbrough-vs-watford-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -106,7 +88,7 @@
     {
         "title": "Milton Keynes Dons vs Tranmere Rovers",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/milton-keynes-dons-vs-tranmere-rovers-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -115,7 +97,7 @@
     {
         "title": "Stockport County vs Peterborough United",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/stockport-county-vs-peterborough-united-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -124,7 +106,7 @@
     {
         "title": "West Bromwich Albion vs Ipswich Town",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/west-bromwich-albion-vs-ipswich-town-live-streaming",
         "channels": [
             "Sky Sports Football"
@@ -133,7 +115,7 @@
     {
         "title": "Fulham v Aston Villa",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/fulham-v-aston-villa-live-streaming",
         "channels": [
             "TNT Sports 1"
@@ -142,7 +124,7 @@
     {
         "title": "Deportivo Alaves vs Mallorca",
         "competition": "Spanish La Liga",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/deportivo-alaves-vs-mallorca-live-streaming",
         "channels": [
             "Viaplay Sports 1"
