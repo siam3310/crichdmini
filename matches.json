@@ -32,15 +32,6 @@
         ]
     },
     {
-        "title": "Liverpool Women vs West Ham United Women",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/liverpool-women-vs-west-ham-united-women-live-streaming",
-        "channels": [
-            "Sky Sports Football"
-        ]
-    },
-    {
         "title": "Lucknow Super Giants vs Kolkata Knight Riders",
         "competition": "IPL T20",
         "status": "Live",
@@ -50,27 +41,9 @@
         ]
     },
     {
-        "title": "Chelsea vs Leeds United",
-        "competition": "English Fa Cup",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/chelsea-vs-leeds-united-live-streaming",
-        "channels": [
-            "TNT Sports 1"
-        ]
-    },
-    {
-        "title": "Real Oviedo vs Elche",
-        "competition": "Spanish La Liga",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/real-oviedo-vs-elche-live-streaming",
-        "channels": [
-            "Viaplay Sports 2 (CH2)"
-        ]
-    },
-    {
         "title": "LexisNexis Dragons vs Loughborough Lightning",
         "competition": "",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/lexisnexis-dragons-vs-loughborough-lightning-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -79,7 +52,7 @@
     {
         "title": "Hibernian vs Hearts",
         "competition": "Scottish Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/hibernian-vs-hearts-live-streaming",
         "channels": [
             "Sky Sports Football"
