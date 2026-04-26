@@ -32,54 +32,9 @@
         ]
     },
     {
-        "title": "Gujarat Titans vs Chennai Super Kings",
-        "competition": "IPL T20",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/gujarat-titans-vs-chennai-super-kings-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "Coventry City vs Wrexham",
-        "competition": "English Championship",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/coventry-city-vs-wrexham-live-streaming",
-        "channels": [
-            "Sky Sports Football"
-        ]
-    },
-    {
-        "title": "Everton Women vs Chelsea Women",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/everton-women-vs-chelsea-women-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "London City Lionesses vs Leicester City Women",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/london-city-lionesses-vs-leicester-city-women-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "Tottenham Hotspur Women vs Manchester United Women",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/tottenham-hotspur-women-vs-manchester-united-women-live-streaming",
-        "channels": [
-            "Sky Sports Football"
-        ]
-    },
-    {
         "title": "Liverpool Women vs West Ham United Women",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/liverpool-women-vs-west-ham-united-women-live-streaming",
         "channels": [
             "Sky Sports Football"
