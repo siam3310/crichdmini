@@ -32,24 +32,6 @@
         ]
     },
     {
-        "title": "Lucknow Super Giants vs Kolkata Knight Riders",
-        "competition": "IPL T20",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/lucknow-super-giants-vs-kolkata-knight-riders-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "LexisNexis Dragons vs Loughborough Lightning",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/lexisnexis-dragons-vs-loughborough-lightning-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
         "title": "Hibernian vs Hearts",
         "competition": "Scottish Premier League",
         "status": "Live",
@@ -61,7 +43,7 @@
     {
         "title": "Osasuna vs Sevilla",
         "competition": "Spanish La Liga",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/osasuna-vs-sevilla-live-streaming",
         "channels": [
             "Viaplay Sports 1"
@@ -225,45 +207,35 @@
         "competition": "IPL T20",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/chennai-super-kings-vs-mumbai-indians-live-streaming",
-        "channels": [
-            "Sky Sports  Cricket"
-        ]
+        "channels": []
     },
     {
         "title": "Crusaders vs Blues",
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/crusaders-vs-blues-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
+        "channels": []
     },
     {
         "title": "Reds vs Chiefs",
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/reds-vs-chiefs-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
+        "channels": []
     },
     {
         "title": "Highlanders vs Waratahs",
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/highlanders-vs-waratahs-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
+        "channels": []
     },
     {
         "title": "Moana Pasifika vs Hurricanes",
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/moana-pasifika-vs-hurricanes-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
+        "channels": []
     },
     {
         "title": "Brumbies vs Western Force",
