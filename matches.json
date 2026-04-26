@@ -32,27 +32,9 @@
         ]
     },
     {
-        "title": "Hibernian vs Hearts",
-        "competition": "Scottish Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/hibernian-vs-hearts-live-streaming",
-        "channels": [
-            "Sky Sports Football"
-        ]
-    },
-    {
-        "title": "Osasuna vs Sevilla",
-        "competition": "Spanish La Liga",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/osasuna-vs-sevilla-live-streaming",
-        "channels": [
-            "Viaplay Sports 1"
-        ]
-    },
-    {
         "title": "ATP/WTA 1000: Madrid",
         "competition": "ATP Tour",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/atpwta-1000-madrid-live-streaming",
         "channels": [
             "Sky Sports Tennis"
@@ -207,35 +189,45 @@
         "competition": "IPL T20",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/chennai-super-kings-vs-mumbai-indians-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports  Cricket"
+        ]
     },
     {
         "title": "Crusaders vs Blues",
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/crusaders-vs-blues-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports Main Event"
+        ]
     },
     {
         "title": "Reds vs Chiefs",
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/reds-vs-chiefs-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports Main Event"
+        ]
     },
     {
         "title": "Highlanders vs Waratahs",
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/highlanders-vs-waratahs-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports Main Event"
+        ]
     },
     {
         "title": "Moana Pasifika vs Hurricanes",
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/moana-pasifika-vs-hurricanes-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports Main Event"
+        ]
     },
     {
         "title": "Brumbies vs Western Force",
