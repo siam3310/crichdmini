@@ -104,6 +104,24 @@
         ]
     },
     {
+        "title": "Chelsea vs Leeds United",
+        "competition": "English Fa Cup",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/chelsea-vs-leeds-united-live-streaming",
+        "channels": [
+            "TNT Sports 1"
+        ]
+    },
+    {
+        "title": "Real Oviedo vs Elche",
+        "competition": "Spanish La Liga",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/real-oviedo-vs-elche-live-streaming",
+        "channels": [
+            "Viaplay Sports 2 (CH2)"
+        ]
+    },
+    {
         "title": "LexisNexis Dragons vs Loughborough Lightning",
         "competition": "",
         "status": "Upcoming",
@@ -122,12 +140,39 @@
         ]
     },
     {
+        "title": "Osasuna vs Sevilla",
+        "competition": "Spanish La Liga",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/osasuna-vs-sevilla-live-streaming",
+        "channels": [
+            "Viaplay Sports 1"
+        ]
+    },
+    {
         "title": "ATP/WTA 1000: Madrid",
         "competition": "ATP Tour",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/atpwta-1000-madrid-live-streaming",
         "channels": [
             "Sky Sports Tennis"
+        ]
+    },
+    {
+        "title": "AC Milan vs Juventus",
+        "competition": "Spanish La Liga",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/ac-milan-vs-juventus-live-streaming",
+        "channels": [
+            "TNT Sports 1"
+        ]
+    },
+    {
+        "title": "Villarreal vs Celta Vigo",
+        "competition": "Spanish La Liga",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/villarreal-vs-celta-vigo-live-streaming",
+        "channels": [
+            "Viaplay Sports 1"
         ]
     },
     {
