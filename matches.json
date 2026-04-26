@@ -34,7 +34,7 @@
     {
         "title": "Highlanders vs Moana Pasifika",
         "competition": "",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/highlanders-vs-moana-pasifika-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -122,12 +122,30 @@
         ]
     },
     {
+        "title": "LexisNexis Dragons vs Loughborough Lightning",
+        "competition": "",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/lexisnexis-dragons-vs-loughborough-lightning-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
         "title": "Hibernian vs Hearts",
         "competition": "Scottish Premier League",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/hibernian-vs-hearts-live-streaming",
         "channels": [
             "Sky Sports Football"
+        ]
+    },
+    {
+        "title": "ATP/WTA 1000: Madrid",
+        "competition": "ATP Tour",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/atpwta-1000-madrid-live-streaming",
+        "channels": [
+            "Sky Sports Tennis"
         ]
     },
     {
@@ -194,6 +212,15 @@
         ]
     },
     {
+        "title": "Rajasthan Royals vs Dehli Capitals",
+        "competition": "IPL T20",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/rajasthan-royals-vs-dehli-capitals-live-streaming",
+        "channels": [
+            "Sky Sports  Cricket"
+        ]
+    },
+    {
         "title": "Hurricanes vs Crusaders",
         "competition": "",
         "status": "Upcoming",
@@ -209,6 +236,15 @@
         "match_url": "https://vf.crichd.tv/waratahs-vs-western-force-live-streaming",
         "channels": [
             "Sky Sports Mix"
+        ]
+    },
+    {
+        "title": "Rajasthan Royals vs Delhi Capitals",
+        "competition": "IPL T20",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/rajasthan-royals-vs-delhi-capitals-live-streaming",
+        "channels": [
+            "Sky Sports  Cricket"
         ]
     },
     {
@@ -236,6 +272,15 @@
         "match_url": "https://vf.crichd.tv/reds-vs-brumbies-live-streaming",
         "channels": [
             "Sky Sports Mix"
+        ]
+    },
+    {
+        "title": "Chennai Super Kings vs Mumbai Indians",
+        "competition": "IPL T20",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/chennai-super-kings-vs-mumbai-indians-live-streaming",
+        "channels": [
+            "Sky Sports  Cricket"
         ]
     },
     {
