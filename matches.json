@@ -23,18 +23,9 @@
         ]
     },
     {
-        "title": "Surrey vs Essex",
-        "competition": "English Championship",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/surrey-vs-essex-live-streaming",
-        "channels": [
-            "Sky Sports  Cricket"
-        ]
-    },
-    {
         "title": "Dehli Capitals vs RCB",
         "competition": "IPL T20",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/dehli-capitals-vs-rcb-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
