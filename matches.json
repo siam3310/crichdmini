@@ -59,6 +59,15 @@
         ]
     },
     {
+        "title": "PSG vs Bayern Munchen",
+        "competition": "UEFA Champions League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/psg-vs-bayern-munchen-live-streaming",
+        "channels": [
+            "Ch16 - Direct Sports SP"
+        ]
+    },
+    {
         "title": "Mumbai Indians vs Sunrisers Hyderabad",
         "competition": "IPL T20",
         "status": "Upcoming",
@@ -86,12 +95,48 @@
         ]
     },
     {
+        "title": "Atletico Madrid vs Arsenal",
+        "competition": "UEFA Champions League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/atletico-madrid-vs-arsenal-live-streaming",
+        "channels": [
+            "TNT Sports 1"
+        ]
+    },
+    {
+        "title": "New South Wales Women vs Queensland Women",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/new-south-wales-women-vs-queensland-women-live-streaming",
+        "channels": [
+            "Sky Sports  Action"
+        ]
+    },
+    {
         "title": "Rajasthan Royals vs Dehli Capitals",
         "competition": "IPL T20",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/rajasthan-royals-vs-dehli-capitals-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
+        ]
+    },
+    {
+        "title": "Premier League Darts: Aberdeen",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/premier-league-darts-aberdeen-live-streaming",
+        "channels": [
+            "Sky Sports  Action"
+        ]
+    },
+    {
+        "title": "Hull K R vs Castleford Tigers",
+        "competition": "",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/hull-k-r-vs-castleford-tigers-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
         ]
     },
     {
@@ -203,6 +248,42 @@
         ]
     },
     {
+        "title": "Hibernian vs Celtic",
+        "competition": "Scottish Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/hibernian-vs-celtic-live-streaming",
+        "channels": [
+            "Sky Sports Football"
+        ]
+    },
+    {
+        "title": "Manchester City Women vs Liverpool Women",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/manchester-city-women-vs-liverpool-women-live-streaming",
+        "channels": [
+            "Sky Sports Premier League"
+        ]
+    },
+    {
+        "title": "Tottenham Hotspur Women vs London City Lionesses",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/tottenham-hotspur-women-vs-london-city-lionesses-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Bournemouth vs Crystal Palace",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/bournemouth-vs-crystal-palace-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
         "title": "Gujarat Titans vs Punjab Kings",
         "competition": "IPL T20",
         "status": "Upcoming",
@@ -212,12 +293,39 @@
         ]
     },
     {
+        "title": "Manchester United vs Liverpool",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/manchester-united-vs-liverpool-live-streaming",
+        "channels": [
+            "Sky Sports Premier League"
+        ]
+    },
+    {
         "title": "Mumbai Indians vs Lucknow Super Giants",
         "competition": "IPL T20",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/mumbai-indians-vs-lucknow-super-giants-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
+        ]
+    },
+    {
+        "title": "Delhi Capitals vs Chennai Super Kings",
+        "competition": "IPL T20",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/delhi-capitals-vs-chennai-super-kings-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Sunrisers Hyderabad vs Punjab Kings",
+        "competition": "IPL T20",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/sunrisers-hyderabad-vs-punjab-kings-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
         ]
     },
     {
