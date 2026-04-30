@@ -23,95 +23,76 @@
         ]
     },
     {
-        "title": "Hull K R vs Castleford Tigers",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/hull-k-r-vs-castleford-tigers-live-streaming",
-        "channels": []
-    },
-    {
-        "title": "Nottingham Forest vs Aston Villa",
-        "competition": "UEFA Europa League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/nottingham-forest-vs-aston-villa-live-streaming",
-        "channels": []
-    },
-    {
-        "title": "Sporting Braga vs SC Freiburg",
-        "competition": "UEFA Europa League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/sporting-braga-vs-sc-freiburg-live-streaming",
-        "channels": []
-    },
-    {
-        "title": "Rayo Vallecano vs Strasbourg",
-        "competition": "UEFA Europa Conference League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/rayo-vallecano-vs-strasbourg-live-streaming",
-        "channels": []
-    },
-    {
-        "title": "Shakhtar Donetsk vs Crystal Palace",
-        "competition": "UEFA Europa Conference League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/shakhtar-donetsk-vs-crystal-palace-live-streaming",
-        "channels": []
-    },
-    {
         "title": "Ladies European Tour: MCB Ladies Classic , Sky Sports+ (11:00)",
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/ladies-european-tour-mcb-ladies-classic-sky-sports-1100-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports Main Event"
+        ]
     },
     {
         "title": "Miami Grand Prix",
         "competition": "Formula1",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/miami-grand-prix-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports F1"
+        ]
     },
     {
         "title": "Hurricanes vs Crusaders",
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/hurricanes-vs-crusaders-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports Main Event"
+        ]
     },
     {
         "title": "Waratahs vs Western Force",
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/waratahs-vs-western-force-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports Mix"
+        ]
     },
     {
         "title": "Ladies European Tour: MCB Ladies Classic",
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/ladies-european-tour-mcb-ladies-classic-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports Main Event"
+        ]
     },
     {
         "title": "Rajasthan Royals vs Delhi Capitals",
         "competition": "IPL T20",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/rajasthan-royals-vs-delhi-capitals-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports  Cricket"
+        ]
     },
     {
         "title": "Leeds United vs Burnley",
         "competition": "English Premier League",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/leeds-united-vs-burnley-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports Premier League"
+        ]
     },
     {
         "title": "Leeds Rhinos vs Wakefield Trinity",
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/leeds-rhinos-vs-wakefield-trinity-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports Main Event"
+        ]
     },
     {
         "title": "St Helens vs York Knights",
