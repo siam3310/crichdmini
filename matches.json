@@ -23,18 +23,9 @@
         ]
     },
     {
-        "title": "New South Wales Women vs Queensland Women",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/new-south-wales-women-vs-queensland-women-live-streaming",
-        "channels": [
-            "Sky Sports  Action"
-        ]
-    },
-    {
         "title": "ATP/WTA 1000: Madrid",
         "competition": "ATP Tour",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/atpwta-1000-madrid-live-streaming",
         "channels": [
             "Sky Sports Tennis"
