@@ -23,18 +23,9 @@
         ]
     },
     {
-        "title": "ATP/WTA 1000: Madrid",
-        "competition": "ATP Tour",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/atpwta-1000-madrid-live-streaming",
-        "channels": [
-            "Sky Sports Tennis"
-        ]
-    },
-    {
         "title": "Rajasthan Royals vs Dehli Capitals",
         "competition": "IPL T20",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/rajasthan-royals-vs-dehli-capitals-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
