@@ -32,33 +32,6 @@
         ]
     },
     {
-        "title": "Leeds United vs Burnley",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/leeds-united-vs-burnley-live-streaming",
-        "channels": [
-            "Sky Sports Premier League"
-        ]
-    },
-    {
-        "title": "Leeds Rhinos vs Wakefield Trinity",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/leeds-rhinos-vs-wakefield-trinity-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "St Helens vs York Knights",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/st-helens-vs-york-knights-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
         "title": "Ladies European Tour: MCB Ladies Classic , Sky Sports Mix (11:00)",
         "competition": "",
         "status": "Upcoming",
