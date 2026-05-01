@@ -23,18 +23,9 @@
         ]
     },
     {
-        "title": "Ladies European Tour: MCB Ladies Classic , Sky Sports+ (11:00)",
-        "competition": "",
-        "status": "Upcoming",
-        "match_url": "https://vf.crichd.tv/ladies-european-tour-mcb-ladies-classic-sky-sports-1100-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
         "title": "Miami Grand Prix",
         "competition": "Formula1",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/miami-grand-prix-live-streaming",
         "channels": [
             "Sky Sports F1"
