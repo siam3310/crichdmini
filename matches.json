@@ -34,7 +34,7 @@
     {
         "title": "Leeds United vs Burnley",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/leeds-united-vs-burnley-live-streaming",
         "channels": [
             "Sky Sports Premier League"
@@ -43,7 +43,7 @@
     {
         "title": "Leeds Rhinos vs Wakefield Trinity",
         "competition": "",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/leeds-rhinos-vs-wakefield-trinity-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -52,7 +52,7 @@
     {
         "title": "St Helens vs York Knights",
         "competition": "",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/st-helens-vs-york-knights-live-streaming",
         "channels": [
             "Sky Sports Main Event"
