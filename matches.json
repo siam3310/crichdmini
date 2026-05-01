@@ -32,18 +32,9 @@
         ]
     },
     {
-        "title": "Hurricanes vs Crusaders",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/hurricanes-vs-crusaders-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
         "title": "Waratahs vs Western Force",
         "competition": "",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/waratahs-vs-western-force-live-streaming",
         "channels": [
             "Sky Sports Mix"
@@ -52,7 +43,7 @@
     {
         "title": "Ladies European Tour: MCB Ladies Classic",
         "competition": "",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/ladies-european-tour-mcb-ladies-classic-live-streaming",
         "channels": [
             "Sky Sports Main Event"
