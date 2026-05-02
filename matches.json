@@ -32,24 +32,6 @@
         ]
     },
     {
-        "title": "Catalans Dragons vs Leigh Leopards",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/catalans-dragons-vs-leigh-leopards-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "LexisNexis Dragons vs Nottingham Forest Netball",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/lexisnexis-dragons-vs-nottingham-forest-netball-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
         "title": "NIC Leeds Rhinos vs London Mavericks",
         "competition": "NBA",
         "status": "Live",
@@ -61,7 +43,7 @@
     {
         "title": "Huddersfield Giants vs Warrington Wolves",
         "competition": "",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/huddersfield-giants-vs-warrington-wolves-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -70,7 +52,7 @@
     {
         "title": "Osasuna vs Barcelona",
         "competition": "Spanish La Liga",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/osasuna-vs-barcelona-live-streaming",
         "channels": [
             "Ch16 - Direct Sports SP"
