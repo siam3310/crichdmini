@@ -32,33 +32,6 @@
         ]
     },
     {
-        "title": "NIC Leeds Rhinos vs London Mavericks",
-        "competition": "NBA",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/nic-leeds-rhinos-vs-london-mavericks-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "Huddersfield Giants vs Warrington Wolves",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/huddersfield-giants-vs-warrington-wolves-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
-        "title": "Osasuna vs Barcelona",
-        "competition": "Spanish La Liga",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/osasuna-vs-barcelona-live-streaming",
-        "channels": [
-            "Ch16 - Direct Sports SP"
-        ]
-    },
-    {
         "title": "Ladies European Tour: MCB Ladies Classic",
         "competition": "",
         "status": "Upcoming",
