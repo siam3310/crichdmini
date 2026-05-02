@@ -32,42 +32,6 @@
         ]
     },
     {
-        "title": "Chennai Super Kings vs Mumbai Indians",
-        "competition": "IPL T20",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/chennai-super-kings-vs-mumbai-indians-live-streaming",
-        "channels": [
-            "Sky Sports  Cricket"
-        ]
-    },
-    {
-        "title": "Como vs Napoli",
-        "competition": "Italian Serie A",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/como-vs-napoli-live-streaming",
-        "channels": [
-            "TNT Sports 1"
-        ]
-    },
-    {
-        "title": "Arsenal vs Fulham",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/arsenal-vs-fulham-live-streaming",
-        "channels": [
-            "Sky Sports Premier League"
-        ]
-    },
-    {
-        "title": "Bayer Leverkusen vs RB Leipzig",
-        "competition": "Bundesliga",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/bayer-leverkusen-vs-rb-leipzig-live-streaming",
-        "channels": [
-            "Sky Sports Mix"
-        ]
-    },
-    {
         "title": "Catalans Dragons vs Leigh Leopards",
         "competition": "",
         "status": "Live",
@@ -88,7 +52,7 @@
     {
         "title": "NIC Leeds Rhinos vs London Mavericks",
         "competition": "NBA",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/nic-leeds-rhinos-vs-london-mavericks-live-streaming",
         "channels": [
             "Sky Sports Main Event"
