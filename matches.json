@@ -32,18 +32,9 @@
         ]
     },
     {
-        "title": "Reds vs Brumbies",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/reds-vs-brumbies-live-streaming",
-        "channels": [
-            "Sky Sports Mix"
-        ]
-    },
-    {
         "title": "Manchester United Women vs Brighton and Hove Albion Women",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/manchester-united-women-vs-brighton-and-hove-albion-women-live-streaming",
         "channels": [
             "Sky Sports Premier League"
@@ -52,7 +43,7 @@
     {
         "title": "Blackburn Rovers vs Leicester City",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/blackburn-rovers-vs-leicester-city-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -61,7 +52,7 @@
     {
         "title": "Bristol City vs Stoke City",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/bristol-city-vs-stoke-city-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -70,7 +61,7 @@
     {
         "title": "Derby County vs Sheffield United",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/derby-county-vs-sheffield-united-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -79,7 +70,7 @@
     {
         "title": "Hull City vs Norwich City",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/hull-city-vs-norwich-city-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -88,7 +79,7 @@
     {
         "title": "Ipswich Town vs Queens Park Rangers",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/ipswich-town-vs-queens-park-rangers-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -97,7 +88,7 @@
     {
         "title": "Millwall vs Oxford United",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/millwall-vs-oxford-united-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -106,7 +97,7 @@
     {
         "title": "Portsmouth vs Birmingham City",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/portsmouth-vs-birmingham-city-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -115,7 +106,7 @@
     {
         "title": "Preston North End vs Southampton",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/preston-north-end-vs-southampton-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -124,7 +115,7 @@
     {
         "title": "Sheffield Wednesday vs West Bromwich Albion",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/sheffield-wednesday-vs-west-bromwich-albion-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -133,7 +124,7 @@
     {
         "title": "Swansea City vs Charlton Athletic",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/swansea-city-vs-charlton-athletic-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -142,7 +133,7 @@
     {
         "title": "Watford vs Coventry City",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/watford-vs-coventry-city-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -151,7 +142,7 @@
     {
         "title": "Wrexham vs Middlesbrough",
         "competition": "English Championship",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/wrexham-vs-middlesbrough-live-streaming",
         "channels": [
             "Sky Sports Main Event"
