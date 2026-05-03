@@ -23,33 +23,6 @@
         ]
     },
     {
-        "title": "Miami Grand Prix",
-        "competition": "Formula1",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/miami-grand-prix-live-streaming",
-        "channels": [
-            "Sky Sports F1"
-        ]
-    },
-    {
-        "title": "Inter Milan vs Parma",
-        "competition": "Italian Serie A",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/inter-milan-vs-parma-live-streaming",
-        "channels": [
-            "TNT Sports 2"
-        ]
-    },
-    {
-        "title": "Espanyol vs Real Madrid",
-        "competition": "Spanish La Liga",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/espanyol-vs-real-madrid-live-streaming",
-        "channels": [
-            "Viaplay Sports 1"
-        ]
-    },
-    {
         "title": "Aston Villa Women vs West Ham United Women",
         "competition": "English Premier League",
         "status": "Upcoming",
