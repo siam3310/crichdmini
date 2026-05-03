@@ -32,15 +32,6 @@
         ]
     },
     {
-        "title": "Penrith Panthers vs Manly Sea Eagles",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/penrith-panthers-vs-manly-sea-eagles-live-streaming",
-        "channels": [
-            "Sky Sports  Action"
-        ]
-    },
-    {
         "title": "Ladies European Tour: MCB Ladies Classic",
         "competition": "",
         "status": "Live",
@@ -52,7 +43,7 @@
     {
         "title": "Sunrisers Hyderabad vs Kolkata Knight Riders",
         "competition": "IPL T20",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/sunrisers-hyderabad-vs-kolkata-knight-riders-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
