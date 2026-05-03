@@ -32,15 +32,6 @@
         ]
     },
     {
-        "title": "Ladies European Tour: MCB Ladies Classic",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/ladies-european-tour-mcb-ladies-classic-live-streaming",
-        "channels": [
-            "Sky Sports Mix"
-        ]
-    },
-    {
         "title": "Sunrisers Hyderabad vs Kolkata Knight Riders",
         "competition": "IPL T20",
         "status": "Live",
@@ -52,7 +43,7 @@
     {
         "title": "Hibernian vs Celtic",
         "competition": "Scottish Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/hibernian-vs-celtic-live-streaming",
         "channels": [
             "Sky Sports Football"
@@ -61,7 +52,7 @@
     {
         "title": "Manchester City Women vs Liverpool Women",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/manchester-city-women-vs-liverpool-women-live-streaming",
         "channels": [
             "Sky Sports Premier League"
@@ -70,7 +61,7 @@
     {
         "title": "Tottenham Hotspur Women vs London City Lionesses",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/tottenham-hotspur-women-vs-london-city-lionesses-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -79,7 +70,7 @@
     {
         "title": "Ladies European Tour: MCB Ladies Classic , Sky Sports Mix (10:00)",
         "competition": "",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/ladies-european-tour-mcb-ladies-classic-sky-sports-mix-1000-live-streaming",
         "channels": [
             "Sky Sports  Golf"
