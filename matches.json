@@ -32,24 +32,6 @@
         ]
     },
     {
-        "title": "Sunrisers Hyderabad vs Kolkata Knight Riders",
-        "competition": "IPL T20",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/sunrisers-hyderabad-vs-kolkata-knight-riders-live-streaming",
-        "channels": [
-            "Sky Sports  Cricket"
-        ]
-    },
-    {
-        "title": "Ladies European Tour: MCB Ladies Classic , Sky Sports Mix (10:00)",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/ladies-european-tour-mcb-ladies-classic-sky-sports-mix-1000-live-streaming",
-        "channels": [
-            "Sky Sports  Golf"
-        ]
-    },
-    {
         "title": "ATP/WTA 1000: Madrid",
         "competition": "ATP Tour",
         "status": "Live",
@@ -70,7 +52,7 @@
     {
         "title": "Gujarat Titans vs Punjab Kings",
         "competition": "IPL T20",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/gujarat-titans-vs-punjab-kings-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
@@ -79,7 +61,7 @@
     {
         "title": "Hull FC vs Toulouse Olympique",
         "competition": "",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/hull-fc-vs-toulouse-olympique-live-streaming",
         "channels": [
             "Sky Sports Main Event"
