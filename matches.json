@@ -32,15 +32,6 @@
         ]
     },
     {
-        "title": "London Pulse vs Loughborough Lightning",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/london-pulse-vs-loughborough-lightning-live-streaming",
-        "channels": [
-            "Sky Sports Mix"
-        ]
-    },
-    {
         "title": "Aston Villa vs Tottenham Hotspur",
         "competition": "English Premier League",
         "status": "Live",
@@ -52,7 +43,7 @@
     {
         "title": "Inter Milan vs Parma",
         "competition": "Italian Serie A",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/inter-milan-vs-parma-live-streaming",
         "channels": [
             "TNT Sports 2"
@@ -61,7 +52,7 @@
     {
         "title": "Espanyol vs Real Madrid",
         "competition": "Spanish La Liga",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/espanyol-vs-real-madrid-live-streaming",
         "channels": [
             "Viaplay Sports 1"
