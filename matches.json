@@ -32,24 +32,6 @@
         ]
     },
     {
-        "title": "Gujarat Titans vs Punjab Kings",
-        "competition": "IPL T20",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/gujarat-titans-vs-punjab-kings-live-streaming",
-        "channels": [
-            "Sky Sports  Cricket"
-        ]
-    },
-    {
-        "title": "Real Betis vs Real Oviedo",
-        "competition": "Spanish La Liga",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/real-betis-vs-real-oviedo-live-streaming",
-        "channels": [
-            "Viaplay Sports 2 (CH2)"
-        ]
-    },
-    {
         "title": "London Pulse vs Loughborough Lightning",
         "competition": "",
         "status": "Live",
@@ -61,7 +43,7 @@
     {
         "title": "Aston Villa vs Tottenham Hotspur",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/aston-villa-vs-tottenham-hotspur-live-streaming",
         "channels": [
             "TNT Sports 1"
