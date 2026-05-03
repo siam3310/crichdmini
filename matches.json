@@ -32,24 +32,6 @@
         ]
     },
     {
-        "title": "ATP/WTA 1000: Madrid",
-        "competition": "ATP Tour",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/atpwta-1000-madrid-live-streaming",
-        "channels": [
-            "Sky Sports Tennis"
-        ]
-    },
-    {
-        "title": "Bournemouth vs Crystal Palace",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/bournemouth-vs-crystal-palace-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
         "title": "Gujarat Titans vs Punjab Kings",
         "competition": "IPL T20",
         "status": "Live",
@@ -70,7 +52,7 @@
     {
         "title": "Live GTWC: Europe",
         "competition": "",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/live-gtwc-europe-live-streaming",
         "channels": [
             "Sky Sports F1"
@@ -79,7 +61,7 @@
     {
         "title": "Getafe vs Rayo Vallecano",
         "competition": "Spanish La Liga",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/getafe-vs-rayo-vallecano-live-streaming",
         "channels": [
             "Viaplay Sports 2 (CH2)"
@@ -88,7 +70,7 @@
     {
         "title": "Manchester United vs Liverpool",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/manchester-united-vs-liverpool-live-streaming",
         "channels": [
             "Sky Sports Premier League"
