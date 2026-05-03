@@ -32,6 +32,15 @@
         ]
     },
     {
+        "title": "Penrith Panthers vs Manly Sea Eagles",
+        "competition": "",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/penrith-panthers-vs-manly-sea-eagles-live-streaming",
+        "channels": [
+            "Sky Sports  Action"
+        ]
+    },
+    {
         "title": "Ladies European Tour: MCB Ladies Classic",
         "competition": "",
         "status": "Upcoming",
@@ -86,6 +95,15 @@
         ]
     },
     {
+        "title": "ATP/WTA 1000: Madrid",
+        "competition": "ATP Tour",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/atpwta-1000-madrid-live-streaming",
+        "channels": [
+            "Sky Sports Tennis"
+        ]
+    },
+    {
         "title": "Bournemouth vs Crystal Palace",
         "competition": "English Premier League",
         "status": "Upcoming",
@@ -104,6 +122,33 @@
         ]
     },
     {
+        "title": "Hull FC vs Toulouse Olympique",
+        "competition": "",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/hull-fc-vs-toulouse-olympique-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Live GTWC: Europe",
+        "competition": "",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/live-gtwc-europe-live-streaming",
+        "channels": [
+            "Sky Sports F1"
+        ]
+    },
+    {
+        "title": "Getafe vs Rayo Vallecano",
+        "competition": "Spanish La Liga",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/getafe-vs-rayo-vallecano-live-streaming",
+        "channels": [
+            "Viaplay Sports 2 (CH2)"
+        ]
+    },
+    {
         "title": "Manchester United vs Liverpool",
         "competition": "English Premier League",
         "status": "Upcoming",
@@ -113,12 +158,93 @@
         ]
     },
     {
+        "title": "Real Betis vs Real Oviedo",
+        "competition": "Spanish La Liga",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/real-betis-vs-real-oviedo-live-streaming",
+        "channels": [
+            "Viaplay Sports 2 (CH2)"
+        ]
+    },
+    {
+        "title": "London Pulse vs Loughborough Lightning",
+        "competition": "",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/london-pulse-vs-loughborough-lightning-live-streaming",
+        "channels": [
+            "Sky Sports Mix"
+        ]
+    },
+    {
+        "title": "Aston Villa vs Tottenham Hotspur",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/aston-villa-vs-tottenham-hotspur-live-streaming",
+        "channels": [
+            "TNT Sports 1"
+        ]
+    },
+    {
+        "title": "Inter Milan vs Parma",
+        "competition": "Italian Serie A",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/inter-milan-vs-parma-live-streaming",
+        "channels": [
+            "TNT Sports 2"
+        ]
+    },
+    {
+        "title": "Espanyol vs Real Madrid",
+        "competition": "Spanish La Liga",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/espanyol-vs-real-madrid-live-streaming",
+        "channels": [
+            "Viaplay Sports 1"
+        ]
+    },
+    {
+        "title": "Aston Villa Women vs West Ham United Women",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/aston-villa-women-vs-west-ham-united-women-live-streaming",
+        "channels": [
+            "Sky Sports Football"
+        ]
+    },
+    {
         "title": "Mumbai Indians vs Lucknow Super Giants",
         "competition": "IPL T20",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/mumbai-indians-vs-lucknow-super-giants-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
+        ]
+    },
+    {
+        "title": "Chelsea vs Nottingham Forest",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/chelsea-vs-nottingham-forest-live-streaming",
+        "channels": [
+            "Sky Sports Premier League"
+        ]
+    },
+    {
+        "title": "Hearts vs Rangers",
+        "competition": "Scottish Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/hearts-vs-rangers-live-streaming",
+        "channels": [
+            "Sky Sports Football"
+        ]
+    },
+    {
+        "title": "Everton vs Manchester City",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/everton-vs-manchester-city-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
         ]
     },
     {
