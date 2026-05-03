@@ -41,36 +41,9 @@
         ]
     },
     {
-        "title": "Live GTWC: Europe",
-        "competition": "",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/live-gtwc-europe-live-streaming",
-        "channels": [
-            "Sky Sports F1"
-        ]
-    },
-    {
-        "title": "Getafe vs Rayo Vallecano",
-        "competition": "Spanish La Liga",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/getafe-vs-rayo-vallecano-live-streaming",
-        "channels": [
-            "Viaplay Sports 2 (CH2)"
-        ]
-    },
-    {
-        "title": "Manchester United vs Liverpool",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/manchester-united-vs-liverpool-live-streaming",
-        "channels": [
-            "Sky Sports Premier League"
-        ]
-    },
-    {
         "title": "Real Betis vs Real Oviedo",
         "competition": "Spanish La Liga",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/real-betis-vs-real-oviedo-live-streaming",
         "channels": [
             "Viaplay Sports 2 (CH2)"
@@ -79,7 +52,7 @@
     {
         "title": "London Pulse vs Loughborough Lightning",
         "competition": "",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/london-pulse-vs-loughborough-lightning-live-streaming",
         "channels": [
             "Sky Sports Mix"
