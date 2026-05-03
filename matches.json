@@ -41,33 +41,6 @@
         ]
     },
     {
-        "title": "Hibernian vs Celtic",
-        "competition": "Scottish Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/hibernian-vs-celtic-live-streaming",
-        "channels": [
-            "Sky Sports Football"
-        ]
-    },
-    {
-        "title": "Manchester City Women vs Liverpool Women",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/manchester-city-women-vs-liverpool-women-live-streaming",
-        "channels": [
-            "Sky Sports Premier League"
-        ]
-    },
-    {
-        "title": "Tottenham Hotspur Women vs London City Lionesses",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/tottenham-hotspur-women-vs-london-city-lionesses-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
         "title": "Ladies European Tour: MCB Ladies Classic , Sky Sports Mix (10:00)",
         "competition": "",
         "status": "Live",
@@ -79,7 +52,7 @@
     {
         "title": "ATP/WTA 1000: Madrid",
         "competition": "ATP Tour",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/atpwta-1000-madrid-live-streaming",
         "channels": [
             "Sky Sports Tennis"
@@ -88,7 +61,7 @@
     {
         "title": "Bournemouth vs Crystal Palace",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/bournemouth-vs-crystal-palace-live-streaming",
         "channels": [
             "Sky Sports Main Event"
