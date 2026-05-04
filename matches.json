@@ -32,18 +32,9 @@
         ]
     },
     {
-        "title": "Chelsea vs Nottingham Forest",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/chelsea-vs-nottingham-forest-live-streaming",
-        "channels": [
-            "Sky Sports Premier League"
-        ]
-    },
-    {
         "title": "Hearts vs Rangers",
         "competition": "Scottish Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/hearts-vs-rangers-live-streaming",
         "channels": [
             "Sky Sports Football"
