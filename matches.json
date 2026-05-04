@@ -23,24 +23,6 @@
         ]
     },
     {
-        "title": "Mumbai Indians vs Lucknow Super Giants",
-        "competition": "IPL T20",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/mumbai-indians-vs-lucknow-super-giants-live-streaming",
-        "channels": [
-            "Sky Sports  Cricket"
-        ]
-    },
-    {
-        "title": "Hearts vs Rangers",
-        "competition": "Scottish Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/hearts-vs-rangers-live-streaming",
-        "channels": [
-            "Sky Sports Football"
-        ]
-    },
-    {
         "title": "Everton vs Manchester City",
         "competition": "English Premier League",
         "status": "Upcoming",
