@@ -23,18 +23,9 @@
         ]
     },
     {
-        "title": "Aston Villa Women vs West Ham United Women",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/aston-villa-women-vs-west-ham-united-women-live-streaming",
-        "channels": [
-            "Sky Sports Football"
-        ]
-    },
-    {
         "title": "Mumbai Indians vs Lucknow Super Giants",
         "competition": "IPL T20",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/mumbai-indians-vs-lucknow-super-giants-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
@@ -43,7 +34,7 @@
     {
         "title": "Chelsea vs Nottingham Forest",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/chelsea-vs-nottingham-forest-live-streaming",
         "channels": [
             "Sky Sports Premier League"
