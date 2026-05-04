@@ -45,9 +45,7 @@
         "competition": "English Premier League",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/chelsea-vs-nottingham-forest-live-streaming",
-        "channels": [
-            "Sky Sports Premier League"
-        ]
+        "channels": []
     },
     {
         "title": "Hearts vs Rangers",
@@ -189,18 +187,14 @@
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/chiefs-vs-highlanders-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
+        "channels": []
     },
     {
         "title": "Fijian Drua vs Waratahs",
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/fijian-drua-vs-waratahs-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
+        "channels": []
     },
     {
         "title": "Blues vs Hurricanes",
