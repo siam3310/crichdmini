@@ -23,15 +23,6 @@
         ]
     },
     {
-        "title": "Everton vs Manchester City",
-        "competition": "English Premier League",
-        "status": "Live",
-        "match_url": "https://vf.crichd.tv/everton-vs-manchester-city-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
-    },
-    {
         "title": "Delhi Capitals vs Chennai Super Kings",
         "competition": "IPL T20",
         "status": "Upcoming",
