@@ -25,7 +25,7 @@
     {
         "title": "Aston Villa Women vs West Ham United Women",
         "competition": "English Premier League",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/aston-villa-women-vs-west-ham-united-women-live-streaming",
         "channels": [
             "Sky Sports Football"
@@ -45,7 +45,9 @@
         "competition": "English Premier League",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/chelsea-vs-nottingham-forest-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports Premier League"
+        ]
     },
     {
         "title": "Hearts vs Rangers",
@@ -187,14 +189,18 @@
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/chiefs-vs-highlanders-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports Main Event"
+        ]
     },
     {
         "title": "Fijian Drua vs Waratahs",
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/fijian-drua-vs-waratahs-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports Main Event"
+        ]
     },
     {
         "title": "Blues vs Hurricanes",
