@@ -23,10 +23,55 @@
         ]
     },
     {
+        "title": "New York Knicks vs Philadelphia",
+        "competition": "NBA",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/new-york-knicks-vs-philadelphia-live-streaming",
+        "channels": [
+            "Sky Sports  Action"
+        ]
+    },
+    {
+        "title": "Minnesota Timberwolves vs San Antonio Spurs",
+        "competition": "NBA",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/minnesota-timberwolves-vs-san-antonio-spurs-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
         "title": "Delhi Capitals vs Chennai Super Kings",
         "competition": "IPL T20",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/delhi-capitals-vs-chennai-super-kings-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Arsenal vs Atletico Madrid",
+        "competition": "UEFA Champions League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/arsenal-vs-atletico-madrid-live-streaming",
+        "channels": [
+            "Ch16 - Direct Sports SP"
+        ]
+    },
+    {
+        "title": "TBC vs TBC",
+        "competition": "NBA",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/tbc-vs-tbc-live-streaming",
+        "channels": [
+            "Sky Sports  Action"
+        ]
+    },
+    {
+        "title": "LA Lakers vs Oklahoma City Thunder",
+        "competition": "NBA",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/la-lakers-vs-oklahoma-city-thunder-live-streaming",
         "channels": [
             "Sky Sports Main Event"
         ]
@@ -38,6 +83,24 @@
         "match_url": "https://vf.crichd.tv/sunrisers-hyderabad-vs-punjab-kings-live-streaming",
         "channels": [
             "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Brighton and Hove Albion Women vs Arsenal Women",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/brighton-and-hove-albion-women-vs-arsenal-women-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Bayern Munich vs PSG",
+        "competition": "UEFA Champions League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/bayern-munich-vs-psg-live-streaming",
+        "channels": [
+            "TNT Sports 1"
         ]
     },
     {
@@ -77,6 +140,15 @@
         ]
     },
     {
+        "title": "Hull City vs Millwall",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/hull-city-vs-millwall-live-streaming",
+        "channels": [
+            "Sky Sports Football"
+        ]
+    },
+    {
         "title": "Highlanders vs Waratahs",
         "competition": "",
         "status": "Upcoming",
@@ -104,12 +176,75 @@
         ]
     },
     {
+        "title": "Aston Villa Women vs Arsenal Women",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/aston-villa-women-vs-arsenal-women-live-streaming",
+        "channels": [
+            "Sky Sports Premier League"
+        ]
+    },
+    {
+        "title": "Middlesbrough vs Southampton",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/middlesbrough-vs-southampton-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
         "title": "Rajasthan Royals vs Gujarat Titans",
         "competition": "IPL T20",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/rajasthan-royals-vs-gujarat-titans-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
+        ]
+    },
+    {
+        "title": "Stevenage vs Stockport County",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/stevenage-vs-stockport-county-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Manchester City vs Brentford",
+        "competition": "English Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/manchester-city-vs-brentford-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Wolfsburg vs Bayern Munich",
+        "competition": "Bundesliga",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/wolfsburg-vs-bayern-munich-live-streaming",
+        "channels": [
+            "Sky Sports Football"
+        ]
+    },
+    {
+        "title": "Bolton Wanderers vs Bradford City",
+        "competition": "English Championship",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/bolton-wanderers-vs-bradford-city-live-streaming",
+        "channels": [
+            "Sky Sports Football"
+        ]
+    },
+    {
+        "title": "Motherwell vs Hearts",
+        "competition": "Scottish Premier League",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/motherwell-vs-hearts-live-streaming",
+        "channels": [
+            "Sky Sports Football"
         ]
     },
     {
@@ -137,6 +272,24 @@
         "match_url": "https://vf.crichd.tv/rcb-vs-mumbai-indians-live-streaming",
         "channels": [
             "Sky Sports Mix"
+        ]
+    },
+    {
+        "title": "San Antonio Spurs vs Minnesota Timberwolves",
+        "competition": "NBA",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/san-antonio-spurs-vs-minnesota-timberwolves-live-streaming",
+        "channels": [
+            "Sky Sports Main Event"
+        ]
+    },
+    {
+        "title": "Punjab Kings vs Delhi Capitals",
+        "competition": "IPL T20",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/punjab-kings-vs-delhi-capitals-live-streaming",
+        "channels": [
+            "Sky Sports  Cricket"
         ]
     },
     {
