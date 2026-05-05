@@ -297,35 +297,27 @@
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/blues-vs-hurricanes-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
+        "channels": []
     },
     {
         "title": "Western Force vs Reds",
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/western-force-vs-reds-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
+        "channels": []
     },
     {
         "title": "Crusaders vs Chiefs",
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/crusaders-vs-chiefs-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
+        "channels": []
     },
     {
         "title": "Waratahs vs Brumbies",
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/waratahs-vs-brumbies-live-streaming",
-        "channels": [
-            "Sky Sports Main Event"
-        ]
+        "channels": []
     }
 ]
