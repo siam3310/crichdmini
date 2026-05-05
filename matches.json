@@ -25,7 +25,7 @@
     {
         "title": "Delhi Capitals vs Chennai Super Kings",
         "competition": "IPL T20",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/delhi-capitals-vs-chennai-super-kings-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -297,27 +297,35 @@
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/blues-vs-hurricanes-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports Main Event"
+        ]
     },
     {
         "title": "Western Force vs Reds",
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/western-force-vs-reds-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports Main Event"
+        ]
     },
     {
         "title": "Crusaders vs Chiefs",
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/crusaders-vs-chiefs-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports Main Event"
+        ]
     },
     {
         "title": "Waratahs vs Brumbies",
         "competition": "",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/waratahs-vs-brumbies-live-streaming",
-        "channels": []
+        "channels": [
+            "Sky Sports Main Event"
+        ]
     }
 ]
