@@ -23,18 +23,9 @@
         ]
     },
     {
-        "title": "TBC vs TBC",
-        "competition": "NBA",
-        "status": "Upcoming",
-        "match_url": "https://vf.crichd.tv/tbc-vs-tbc-live-streaming",
-        "channels": [
-            "Sky Sports  Action"
-        ]
-    },
-    {
         "title": "LA Lakers vs Oklahoma City Thunder",
         "competition": "NBA",
-        "status": "Upcoming",
+        "status": "Live",
         "match_url": "https://vf.crichd.tv/la-lakers-vs-oklahoma-city-thunder-live-streaming",
         "channels": [
             "Sky Sports Main Event"
@@ -252,6 +243,15 @@
         "competition": "IPL T20",
         "status": "Upcoming",
         "match_url": "https://vf.crichd.tv/punjab-kings-vs-delhi-capitals-live-streaming",
+        "channels": [
+            "Sky Sports  Cricket"
+        ]
+    },
+    {
+        "title": "Gujarat Titans vs Sunrisers Hyderabad",
+        "competition": "IPL T20",
+        "status": "Upcoming",
+        "match_url": "https://vf.crichd.tv/gujarat-titans-vs-sunrisers-hyderabad-live-streaming",
         "channels": [
             "Sky Sports  Cricket"
         ]
